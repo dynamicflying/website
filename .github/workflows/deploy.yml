@@ -1,5 +1,5 @@
-name: Deploy
-on:
+name: Deploy to GitHub Pages
+on: 
   push:
     branches:
       - main
@@ -10,36 +10,8 @@ on:
       - synchronize
       - closed
 
-concurrency: ${{ github.event_name == 'push' && 'production' || 'preview' }}-${{ github.ref }}
-
 jobs:
-  production:
-    name: Production
-    if: github.event_name == 'push'
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-      - uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: out
-          branch: gh-pages
-          clean-exclude: pr-preview
-  preview:
-    name: Preview
-    if: github.event_name == 'pull_request'
-    runs-on: ubuntu-22.04
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
-        with:
-          cache: npm
-      - run: npm ci
-      - run: npm run build
-      - uses: rossjrw/pr-preview-action@v1
-        with:
-          source-dir: ./out/
+  deploy:
+    uses: EndBug/workflows/.github/workflows/deploy-gh-pages-with-preview.yml@main
+    with:
+      folder: out
