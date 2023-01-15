@@ -1,1 +1,28 @@
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .nav-link {
+    @apply flex items-center justify-center hover:underline
+  }
+}
+
+.countryflag-enter {
+  opacity: 0;
+}
+
+.countryflag-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.countryflag-exit {
+  opacity: 1;
+}
+
+.countryflag-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms;
+}

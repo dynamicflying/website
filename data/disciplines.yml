@@ -1,0 +1,14 @@
+D2W:
+  name: Dynamic 2-Way
+  patterns:
+    snakes:
+      S-1:
+        name: Head-down Inface Snake
+        description: >
+          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+          and third Snake (right in the second Snake). When passing through the centre the first time, each
+          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+          When passing through the centre the second time, each Performer changes to carving towards his/her
+          left in the first and third Snake (right in the second Snake).
+        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
