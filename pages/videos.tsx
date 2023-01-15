@@ -12,7 +12,7 @@ export default function Videos({ disciplines }: { disciplines: Disciplines }) {
   });
 
   return (
-    <div className="flex flex-row">
+    <div className="flex flex-row h-full">
       <VideosSidebar disciplines={disciplines} viewState={[view, setView]} />
       <div className="flex">
         {view.discipline} {view.pattern}

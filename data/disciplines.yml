@@ -13,6 +13,44 @@ D2W:
           When passing through the centre the second time, each Performer changes to carving towards his/her
           left in the first and third Snake (right in the second Snake).
         video: https://www.youtube.com/watch?v=y7XC7U-wgE8
+      S-2:
+        name: Head-up Inface Snake
+        description: >
+          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+          and third Snake (right in the second Snake). When passing through the centre the first time, each
+          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+          When passing through the centre the second time, each Performer changes to carving towards his/her
+          left in the first and third Snake (right in the second Snake).
+        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
+    verticals:
+    mixers:
+    exits:
+D4W:
+  name: Dynamic 4-Way
+  patterns:
+    entrances:
+    snakes:
+      S-1:
+        name: Head-down Inface Snake
+        description: >
+          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+          and third Snake (right in the second Snake). When passing through the centre the first time, each
+          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+          When passing through the centre the second time, each Performer changes to carving towards his/her
+          left in the first and third Snake (right in the second Snake).
+        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
+      S-2:
+        name: Head-up Inface Snake
+        description: >
+          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+          and third Snake (right in the second Snake). When passing through the centre the first time, each
+          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+          When passing through the centre the second time, each Performer changes to carving towards his/her
+          left in the first and third Snake (right in the second Snake).
+        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
     verticals:
     mixers:
     exits:
