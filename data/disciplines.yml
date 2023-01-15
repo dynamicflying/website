@@ -1,6 +1,7 @@
 D2W:
   name: Dynamic 2-Way
   patterns:
+    entrances:
     snakes:
       S-1:
         name: Head-down Inface Snake
@@ -12,3 +13,6 @@ D2W:
           When passing through the centre the second time, each Performer changes to carving towards his/her
           left in the first and third Snake (right in the second Snake).
         video: https://www.youtube.com/watch?v=y7XC7U-wgE8
+    verticals:
+    mixers:
+    exits:
