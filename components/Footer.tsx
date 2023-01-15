@@ -4,7 +4,7 @@ import ChangingFlag from './ChangingFlag';
 
 export default function Footer() {
   return (
-    <div className="flex text-white h-20 p-5 mt-auto items-center justify-evenly text-base">
+    <div className="flex text-text h-20 p-5 mt-auto items-center justify-evenly text-base">
       {/* A paragrah with a copyright symbol, the current year */}
       <p>© {new Date().getFullYear()} Dynamic Flying</p>
       <div>logos</div>

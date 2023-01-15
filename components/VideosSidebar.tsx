@@ -6,6 +6,7 @@ import {
   Sidebar,
   SubMenu,
 } from 'react-pro-sidebar';
+import { customColors } from '../utils/theme';
 import { Disciplines, Pattern } from '../utils/types';
 import { useWindowSize } from '../utils/utils';
 
@@ -59,11 +60,11 @@ export default function VideosSidebar({
   const menuItemsStyles: MenuItemStyles = {
     button: ({ level, active, disabled }) => {
       return {
-        color: active ? '#fff' : '#9da5b4',
-        backgroundColor: active ? '#314361' : '#1e293b',
+        color: active ? customColors.textBright : customColors.text,
+        backgroundColor: active ? customColors.bgActive : customColors.bg,
         ':hover': {
-          color: '#fff',
-          backgroundColor: '#445d87',
+          color: customColors.textBright,
+          backgroundColor: customColors.bgHover,
         },
       };
     },
@@ -73,7 +74,7 @@ export default function VideosSidebar({
     <div className="flex pt-10 border-r-solid border-r-2 border-r-slate-600">
       <Sidebar
         defaultCollapsed={width < 800}
-        backgroundColor="#1e293b"
+        backgroundColor={customColors.bg}
         rootStyles={{ borderWidth: 0 }}
       >
         <Menu closeOnClick menuItemStyles={menuItemsStyles}>

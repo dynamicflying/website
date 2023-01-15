@@ -8,6 +8,11 @@ module.exports = {
     extend: {
       colors: {
         background: 'slate-800',
+        bg: '#1e293b', // slate-800
+        bgActive: '#314361',
+        bgHover: '#445d87',
+        text: '#ccc',
+        textBright: '#ffffff',
       },
     },
   },
