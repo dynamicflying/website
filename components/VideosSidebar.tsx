@@ -7,7 +7,7 @@ import {
   SubMenu,
 } from 'react-pro-sidebar';
 import { customColors } from '../utils/theme';
-import { Disciplines, Pattern } from '../utils/types';
+import { Disciplines, Pattern, Patterns } from '../utils/types';
 import { useWindowSize } from '../utils/utils';
 
 interface VideosSidebarProps {
@@ -15,6 +15,7 @@ interface VideosSidebarProps {
   viewState: ReturnType<
     typeof useState<{
       discipline: keyof Disciplines;
+      category: keyof Patterns;
       pattern: string;
     }>
   >;
@@ -29,31 +30,31 @@ export default function VideosSidebar({
   const [activeSubMenu, openSubMenu] = useState(undefined);
   const [width] = useWindowSize();
 
-  const submenus: Pick<SubMenuProps, 'label' | 'icon' | 'patterns'>[] = [
+  const submenus: Pick<SubMenuProps, 'label' | 'icon' | 'category'>[] = [
     {
       label: 'Entrances',
       icon: <p>E</p>,
-      patterns: disciplines[view.discipline].patterns.entrances,
+      category: 'entrances',
     },
     {
       label: 'Snakes',
       icon: <p>S</p>,
-      patterns: disciplines[view.discipline].patterns.snakes,
+      category: 'snakes',
     },
     {
       label: 'Verticals',
       icon: <p>V</p>,
-      patterns: disciplines[view.discipline].patterns.verticals,
+      category: 'verticals',
     },
     {
       label: 'Mixers',
       icon: <p>M</p>,
-      patterns: disciplines[view.discipline].patterns.mixers,
+      category: 'mixers',
     },
     {
       label: 'Exits',
       icon: <p>E</p>,
-      patterns: disciplines[view.discipline].patterns.exits,
+      category: 'exits',
     },
   ];
 
@@ -89,7 +90,7 @@ export default function VideosSidebar({
                 key={discipline}
                 active={view.discipline == discipline}
                 onClick={() => {
-                  setView({ discipline, pattern: '' });
+                  setView({ discipline, category: null, pattern: null });
                   setSelectorOpen(false);
                 }}
               >
@@ -100,17 +101,18 @@ export default function VideosSidebar({
         </Menu>
         <div className="m-10"></div>
         <Menu closeOnClick menuItemStyles={menuItemsStyles}>
-          {submenus.map(({ label, icon, patterns }) => (
+          {submenus.map(({ label, icon, category }) => (
             <CustomSubMenu
               key={label}
               label={label}
               icon={icon}
-              patterns={patterns}
+              patterns={disciplines[view.discipline].patterns[category]}
               open={activeSubMenu === label}
               onSubMenuOpen={openSubMenu}
               currentPattern={view.pattern}
-              onPatternClick={(pattern) =>
-                setView({ discipline: view.discipline, pattern })
+              category={category}
+              onPatternClick={(category, pattern) =>
+                setView({ discipline: view.discipline, category, pattern })
               }
             />
           ))}
@@ -123,11 +125,12 @@ export default function VideosSidebar({
 interface SubMenuProps {
   label: string;
   icon: JSX.Element;
-  patterns: Record<string, Pattern>;
   open: boolean;
   onSubMenuOpen: (label: string) => void;
   currentPattern: string;
-  onPatternClick: (pattern: string) => void;
+  patterns: Patterns[keyof Patterns];
+  category: keyof Patterns;
+  onPatternClick: (category: keyof Patterns, pattern: string) => void;
 }
 
 function CustomSubMenu(props: SubMenuProps) {
@@ -142,7 +145,7 @@ function CustomSubMenu(props: SubMenuProps) {
         <MenuItem
           key={key}
           active={props.currentPattern == key}
-          onClick={() => props.onPatternClick(key)}
+          onClick={() => props.onPatternClick(props.category, key)}
         >
           {key} - {pattern.name}
         </MenuItem>

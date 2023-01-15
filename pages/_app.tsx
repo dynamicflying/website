@@ -6,7 +6,7 @@ import '../styles/global.css';
 export default function App({ Component: Page, pageProps }) {
   return (
     <ProSidebarProvider>
-      <div className="flex flex-col bg-slate-800 h-[100vh]">
+      <div className="flex flex-col bg-slate-800 h-full min-h-screen">
         <Header />
         <Page {...pageProps} />
         <Footer />

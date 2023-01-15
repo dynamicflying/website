@@ -13,6 +13,8 @@ export interface Patterns {
   exits: Record<string, Pattern>;
 }
 
+export type Category = keyof Patterns;
+
 export interface Pattern {
   name: string;
   description: string;
