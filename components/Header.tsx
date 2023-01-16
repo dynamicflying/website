@@ -8,7 +8,7 @@ export default function Header() {
       <div className="flex items-center justify-center ml-5">
         <ExportedImage src={logo} alt="Logo" width={80} height={80} />
       </div>
-      <div className="flex-1 flex items-center justify-center gap-[7rem] text-lg">
+      <div className="flex-1 flex items-center justify-evenly text-lg">
         <div className="nav-link">
           <Link href="/">Home</Link>
         </div>
