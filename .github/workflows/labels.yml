@@ -1,0 +1,12 @@
+name: Sync labels
+on:
+  workflow_dispatch:
+
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: EndBug/label-sync@v2
+        with:
+          config-file: https://raw.githubusercontent.com/EndBug/labels/2024e2c1bb8adbf3d76fbabaf472965d9bfcb3b6/labels.yml
