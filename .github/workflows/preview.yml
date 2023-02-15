@@ -10,6 +10,7 @@ on:
   push:
     branches:
       - 'main'
+  delete:
   pull_request_target:
     types:
       - opened
@@ -23,17 +24,25 @@ concurrency:
 
 jobs:
   dev:
-    name: Development
+    name: Deploy preview
     runs-on: ubuntu-20.04
     env:
       PREVIEW_REPO: dynamicflying/preview
       PAGES_BASE: https://dynamicflying.github.io/preview
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout branch
+        if: ${{ !startsWith(github.event_name, 'pull_request') }}
+        uses: actions/checkout@v3
 
-      # Assuming you're using Node.js
-      - uses: actions/setup-node@v3
+      - name: Checkout PR head
+        if: ${{ startsWith(github.event_name, 'pull_request') && github.event.action != 'closed' }}
+        uses: actions/checkout@v3
+        with:
+          ref: refs/pull/${{ github.event.pull_request.number }}/merge
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         if: ${{ github.event.action != 'closed' }} # Skipping these steps if the PR has been closed
         with:
           node-version: '16'
@@ -74,7 +83,6 @@ jobs:
         shell: bash
 
       # Run your usual build command, but make sure to use the correct base URL
-      # This example assumes you're using React, and that you're using the PUBLIC_URL env variable
       - name: Build
         if: ${{ github.event.action != 'closed' }}
         run: npm run build
