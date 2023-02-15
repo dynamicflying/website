@@ -1,22 +1,32 @@
-export type Disciplines = Record<'D2W' | 'D4W' | 'SS', Discipline>;
+export type Disciplines = Discipline[];
 
 export interface Discipline {
+  id: string;
   name: string;
-  patterns: Patterns;
+  rules: Rules[];
+  pattern_types: PatternType[];
 }
 
-export interface Patterns {
-  entrances: Record<string, Pattern>;
-  snakes: Record<string, Pattern>;
-  verticals: Record<string, Pattern>;
-  mixers: Record<string, Pattern>;
-  exits: Record<string, Pattern>;
+export interface Rules {
+  date: string;
+  file: string;
 }
 
-export type Category = keyof Patterns;
+export interface PatternType {
+  name: string;
+  icon: string;
+  patterns: Pattern[];
+}
 
 export interface Pattern {
+  id: string;
   name: string;
   description: string;
-  video: string;
+  videos: Video[];
+}
+
+export interface Video {
+  url: string;
+  variant?: string | null;
+  outdated_since?: string | null;
 }

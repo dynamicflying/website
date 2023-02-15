@@ -1,28 +1,47 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import * as fs from 'fs';
 import * as path from 'path';
 import YAML from 'yaml';
 import VideosSidebar from '../components/VideosSidebar';
-import { Disciplines } from '../utils/types';
+import { Discipline, Disciplines, Pattern, Video } from '../utils/types';
 import PatternDisplay from '../components/PatternDisplay';
 
+interface Data {
+  discipline: Discipline;
+  pattern: Pattern;
+  video: Video;
+}
+
 export default function Videos({ disciplines }: { disciplines: Disciplines }) {
+  const [data, setData] = useState<Data>();
   const [view, setView] = useState({
-    discipline: 'D2W' as keyof Disciplines,
-    category: null as keyof Disciplines['D2W']['patterns'],
+    discipline: 'D2W',
+    type: null as string,
     pattern: null as string,
+    video: null as number,
   });
+
+  useEffect(() => {
+    let discipline = disciplines.find((d) => d.id === view.discipline),
+      pattern = discipline?.pattern_types
+        .find((t) => t.name === view.type)
+        ?.patterns.find((p) => p.id === view.pattern),
+      video = pattern?.videos[view.video];
+
+    setData({
+      discipline,
+      pattern,
+      video,
+    });
+  }, [view.discipline, disciplines]);
 
   return (
     <div className="flex flex-1 flex-row h-full">
       <VideosSidebar disciplines={disciplines} viewState={[view, setView]} />
       <PatternDisplay
-        discipline={view.discipline}
-        pattern={
-          view.pattern
-            ? disciplines[view.discipline].patterns[view.category][view.pattern]
-            : null
-        }
+        discipline={data.discipline}
+        pattern={data.pattern}
+        video={data.video}
       />
     </div>
   );

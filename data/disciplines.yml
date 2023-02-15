@@ -1,56 +1,95 @@
-D2W:
+- id: D2W
   name: Dynamic 2-Way
-  patterns:
-    entrances:
-    snakes:
-      S-1:
-        name: Head-down Inface Snake
-        description: >
-          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
-          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
-          and third Snake (right in the second Snake). When passing through the centre the first time, each
-          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
-          When passing through the centre the second time, each Performer changes to carving towards his/her
-          left in the first and third Snake (right in the second Snake).
-        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
-      S-2:
-        name: Head-up Inface Snake
-        description: >
-          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
-          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
-          and third Snake (right in the second Snake). When passing through the centre the first time, each
-          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
-          When passing through the centre the second time, each Performer changes to carving towards his/her
-          left in the first and third Snake (right in the second Snake).
-        video: https://www.youtube.com/watch?v=H7SuDwvVGVo
-    verticals:
-    mixers:
-    exits:
-D4W:
+  rules:
+    - date: # the date the revision has been published
+      file: # the file name of the revision
+  pattern_types:
+    - name: Entrances
+      icon: # pattern_types/entrances.svg # or something
+      patterns: []
+    - name: Snakes
+      icon: # pattern_types/snakes.svg # or something
+      patterns:
+        - id: S-1
+          name: Head-down Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+            carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+            and third Snake (right in the second Snake). When passing through the centre the first time, each
+            Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+            When passing through the centre the second time, each Performer changes to carving towards his/her
+            left in the first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=y7XC7U-wgE8
+              # variant:
+              # outdated_since:
+        - id: S-2
+          name: Head-up Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+            carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+            and third Snake (right in the second Snake). When passing through the centre the first time, each
+            Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+            When passing through the centre the second time, each Performer changes to carving towards his/her
+            left in the first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=H7SuDwvVGVo
+              # variant:
+              # outdated_since:
+    - name: Verticals
+      icon: # pattern_types/verticals.svg # or something
+      patterns: []
+    - name: Mixers
+      icon: # pattern_types/mixers.svg # or something
+      patterns: []
+    - name: Exits
+      icon: # pattern_types/exits.svg # or something
+      patterns: []
+
+- id: D4W
   name: Dynamic 4-Way
-  patterns:
-    entrances:
-    snakes:
-      S-1:
-        name: Head-down Inface Snake
-        description: >
-          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
-          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
-          and third Snake (right in the second Snake). When passing through the centre the first time, each
-          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
-          When passing through the centre the second time, each Performer changes to carving towards his/her
-          left in the first and third Snake (right in the second Snake).
-        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
-      S-2:
-        name: Head-up Inface Snake
-        description: >
-          Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
-          carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
-          and third Snake (right in the second Snake). When passing through the centre the first time, each
-          Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
-          When passing through the centre the second time, each Performer changes to carving towards his/her
-          left in the first and third Snake (right in the second Snake).
-        video: https://www.youtube.com/watch?v=y7XC7U-wgE8
-    verticals:
-    mixers:
-    exits:
+  rules:
+    - date: # the date the revision has been published
+      file: # the file name of the revision
+  pattern_types:
+    - name: Entrances
+      icon: # pattern_types/entrances.svg # or something
+      patterns: []
+    - name: Snakes
+      icon: # pattern_types/snakes.svg # or something
+      patterns:
+        - id: S-1
+          name: Head-down Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+            carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+            and third Snake (right in the second Snake). When passing through the centre the first time, each
+            Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+            When passing through the centre the second time, each Performer changes to carving towards his/her
+            left in the first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=y7XC7U-wgE8
+              # variant:
+              # outdated_since:
+        - id: S-2
+          name: Head-up Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
+            carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
+            and third Snake (right in the second Snake). When passing through the centre the first time, each
+            Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
+            When passing through the centre the second time, each Performer changes to carving towards his/her
+            left in the first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=H7SuDwvVGVo
+              # variant:
+              # outdated_since:
+    - name: Verticals
+      icon: # pattern_types/verticals.svg # or something
+      patterns: []
+    - name: Mixers
+      icon: # pattern_types/mixers.svg # or something
+      patterns: []
+    - name: Exits
+      icon: # pattern_types/exits.svg # or something
+      patterns: []
