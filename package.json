@@ -8,9 +8,9 @@
   "dependencies": {
     "next": "^12.2.5",
     "next-image-export-optimizer": "^0.17.1",
-    "react": "17.0.2",
+    "react": "18.2.0",
     "react-country-flag": "^3.0.2",
-    "react-dom": "17.0.2",
+    "react-dom": "18.2.0",
     "react-player": "^2.11.0",
     "react-pro-sidebar": "^1.0.0",
     "react-transition-group": "^4.4.5",
@@ -19,7 +19,7 @@
   "devDependencies": {
     "@tailwindcss/forms": "^0.5.3",
     "@types/node": "^18.13.0",
-    "@types/react": "^18.0.18",
+    "@types/react": "^18.0.28",
     "@types/react-transition-group": "^4.4.5",
     "autoprefixer": "^10.4.13",
     "postcss": "^8.4.21",
