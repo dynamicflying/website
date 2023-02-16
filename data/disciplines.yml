@@ -9,6 +9,7 @@
       patterns: &dynamic-snakes
         - id: E0
           name: Compulsory Entrance
+          transition: true
           description: >
             P#1, followed by P#2 through P#4, must completely cross the vertical plane defined by the Sidelines.
             The Performers may cross this vertical plane in any orientation. Maintaining sequential order, the

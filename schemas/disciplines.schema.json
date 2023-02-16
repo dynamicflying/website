@@ -3,6 +3,7 @@
   "title": "Disciplines",
   "type": "array",
   "items": {
+    "title": "Discipline",
     "type": "object",
     "properties": {
       "id": {
@@ -16,6 +17,7 @@
       "rules": {
         "type": "array",
         "items": {
+          "title": "Rule",
           "type": "object",
           "properties": {
             "date": {
@@ -39,6 +41,7 @@
       "pattern_types": {
         "type": "array",
         "items": {
+          "title": "PatternType",
           "type": "object",
           "properties": {
             "name": {
@@ -55,6 +58,7 @@
             "patterns": {
               "type": "array",
               "items": {
+                "title": "Pattern",
                 "type": "object",
                 "properties": {
                   "id": {
@@ -76,6 +80,7 @@
                   "videos": {
                     "type": "array",
                     "items": {
+                      "title": "Video",
                       "type": "object",
                       "properties": {
                         "url": {
