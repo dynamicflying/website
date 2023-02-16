@@ -1,8 +1,8 @@
 - id: D2W
   name: Dynamic 2-Way
   rules:
-    - date: # the date the revision has been published
-      file: # the file name of the revision
+    - date: 2023-03-01
+      file: files/rules/2022-dynamic.pdf
   pattern_types:
     - name: Entrances
       icon: # pattern_types/entrances.svg # or something
@@ -49,8 +49,8 @@
 - id: D4W
   name: Dynamic 4-Way
   rules:
-    - date: # the date the revision has been published
-      file: # the file name of the revision
+    - date: 2023-03-01
+      file: files/rules/2022-dynamic.pdf
   pattern_types:
     - name: Entrances
       icon: # pattern_types/entrances.svg # or something
