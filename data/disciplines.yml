@@ -11,9 +11,11 @@
           name: Compulsory Entrance
           transition: true
           description: >
-            P#1, followed by P#2 through P#4, must completely cross the vertical plane defined by the Sidelines.
-            The Performers may cross this vertical plane in any orientation. Maintaining sequential order, the
-            Performers must flow counterclockwise (with respect to the top view) into the first Snake.
+            P#1, followed by P#2 through P#4, must completely cross the vertical
+            plane defined by the Sidelines. The Performers may cross this
+            vertical plane in any orientation. Maintaining sequential order, the
+            Performers must flow counterclockwise (with respect to the top view)
+            into the first Snake.
           videos:
             - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
               variant: Test variant
@@ -21,58 +23,77 @@
         - id: S-1
           name: Head-down Inface Snake
           description: >
-            Performers cross the Start Sideline in a head-down inface orientation and remain in head-down inface
-            carving during the entire Pattern. Performers begin by carving towards the Performers' left in the first
-            and third Snake (right in the second Snake). When passing through the centre the first time, each
-            Performer changes to carving towards his/her right in the first and third Snake (left in the second Snake).
-            When passing through the centre the second time, each Performer changes to carving towards his/her
-            left in the first and third Snake (right in the second Snake).
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain in head-down inface carving during the entire
+            Pattern. Performers begin by carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her left in the first and
+            third Snake (right in the second Snake).
         - id: S-2
           name: Head-down Switching Snake
           description: >
-            Performers cross the Start Sideline in a head-down inface orientation and remain head-down during
-            the entire Pattern. Performers begin by inface carving towards the Performers' left in the first and third
-            Snake (right in the second Snake). When passing through the centre the first time, each Performer
-            changes to outface carving towards his/her left in the first and third Snake (right in the second Snake).
-            When passing through the centre the second time, each Performer returns to inface carving towards
-            his/her left in the first and third Snake (right in the second Snake)
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain head-down during the entire Pattern.
+            Performers begin by inface carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to outface
+            carving towards his/her left in the first and third Snake (right in
+            the second Snake). When passing through the centre the second time,
+            each Performer returns to inface carving towards his/her left in the
+            first and third Snake (right in the second Snake)
         - id: S-3
           name: Head-up Inface Snake
           description: >
-            Performers cross the Start Sideline in a head-up inface orientation and remain in head-up inface carving
-            during the entire Pattern. Performers begin by carving towards the Performers' right in the first and third
-            Snake (left in the second Snake). When passing through the centre the first time, each Performer
-            changes to carving towards his/her left in the first and third Snake (right in the second Snake). When
-            passing through the centre the second time, each Performer changes to carving towards his/her right
-            in the first and third Snake (left in the second Snake).
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain in head-up inface carving during the entire Pattern.
+            Performers begin by carving towards the Performers' right in the
+            first and third Snake (left in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her left in the first and third Snake (right in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her right in the first and
+            third Snake (left in the second Snake).
         - id: S-4
           name: Head-up Switching Snake
           description: >
-            Performers cross the Start Sideline in a head-up inface orientation and remain head-up during the entire
-            Pattern. Performers begin by inface carving towards the Performers' right in the first and third Snake
-            (left in the second Snake). When passing through the centre the first time, each Performer changes to
-            outface carving towards his/her right in the first and third Snake (left in the second Snake). When
-            passing through the centre the second time, each Performer returns to inface carving towards his/her
-            right in the first and third Snake (left in the second Snake).
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain head-up during the entire Pattern. Performers begin by
+            inface carving towards the Performers' right in the first and third
+            Snake (left in the second Snake). When passing through the centre
+            the first time, each Performer changes to outface carving towards
+            his/her right in the first and third Snake (left in the second
+            Snake). When passing through the centre the second time, each
+            Performer returns to inface carving towards his/her right in the
+            first and third Snake (left in the second Snake).
         - id: S-5
           name: Head-down Mixed Snake
           description: >
-            Performers cross the Start Sideline in a head-down inface orientation and begin by head-down inface
-            carving towards the Performers' left in the first and third Snake (right in the second Snake). When
-            crossing through the Sidelines for the first time, each Performer transitions through the back down
-            orientation to head- up inface carving towards his/her left in the first and third Snake (right in the second
-            Snake). When crossing through the Sidelines for the second time, each Performer transitions through
-            the back-down orientation to head-down inface carving towards his/her left in the first and third Snake
-            (right in the second Snake).
+            Performers cross the Start Sideline in a head-down inface
+            orientation and begin by head-down inface carving towards the
+            Performers' left in the first and third Snake (right in the second
+            Snake). When crossing through the Sidelines for the first time, each
+            Performer transitions through the back down orientation to head- up
+            inface carving towards his/her left in the first and third Snake
+            (right in the second Snake). When crossing through the Sidelines for
+            the second time, each Performer transitions through the back-down
+            orientation to head-down inface carving towards his/her left in the
+            first and third Snake (right in the second Snake).
         - id: S-6
           name: Head-up Mixed Snake
           description: >
-            Performers cross the Start Sideline in a head-up inface orientation and begin by head-up inface carving
-            towards the Performers' right in the first and third Snake (left in the second Snake). When crossing
-            through the Sidelines for the first time, each Performer transitions through the back-down orientation to
-            head-down inface carving towards his/her right in the first and third Snake (left in the second Snake).
-            When crossing through the Sidelines for the second time, each Performer transitions through the backdown orientation to head-up inface carving towards his/her right in the first and third Snake (left in the
-            second Snake).
+            Performers cross the Start Sideline in a head-up inface orientation
+            and begin by head-up inface carving towards the Performers' right in
+            the first and third Snake (left in the second Snake). When crossing
+            through the Sidelines for the first time, each Performer transitions
+            through the back-down orientation to head-down inface carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When crossing through the Sidelines for the second
+            time, each Performer transitions through the backdown orientation to
+            head-up inface carving towards his/her right in the first and third
+            Snake (left in the second Snake).
     - name: Verticals
       icon: # pattern_types/verticals.svg # or something
       patterns: []
@@ -93,7 +114,86 @@
       patterns: *dynamic-snakes
     - name: Verticals
       icon: # pattern_types/verticals.svg # or something
-      patterns: []
+      patterns:
+        - id: T0
+          name: Compulsory Transition from Any Head-down Snake to Any Vertical
+          transition: true
+          description: >
+            While remaining head-down throughout the Compulsory Transition, P#1,
+            followed by P#2 through P#4, must cross the Centreline and then the
+            Start Sideline before starting any Vertical.
+        - id: T1
+          name: Compulsory Transition from Any Head-up Snake to Any Vertical
+          transition: true
+          description: >
+            While remaining head-up throughout the Compulsory Transition, P#1
+            and P#3 must cross the Centreline. When crossing through the
+            Sidelines, each Performer transitions to head-down in a half inface
+            Reverse Eagle before starting any Vertical.
+        - id: V-1
+          name: Back Layout
+          description: >
+            While head-down, the Performers separate into two (2) pairs. P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. Each pair, one after the other, flies forward over the Ring
+            and then performs one-half outface Eagle passing under the Ring to
+            head-up. Next, each pair, one after the other, flies backward over
+            the Ring and performs one-half inface Reverse Eagle under the Ring
+            to head-down.
+        - id: V-2
+          name: Butterfly with Bottom Loops
+          description: >
+            While head-down, the Performers separate into two (2) pairs: P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. Each pair, one after the other, flies forward, with the two
+            (2) Performers in the pair crossing each other, over the Ring. Then
+            each pair, one after the other, performs one-half outface Eagle with
+            one-half back loop passing under the Ring to head-down. This
+            sequence is performed twice.
+        - id: V-3
+          name: Classic
+          description: >
+            While head-down, the Performers separate into two (2) pairs. P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. While head-down and flying over the Ring, each Performer in
+            the pair performs a 180° pirouette. Each pair then performs one-half
+            inface Eagle under the Ring to head-up. While head-up and flying
+            over the Ring, each Performer in the pair performs a 180° pirouette.
+            The pair performs one-half inface Reverse Eagle under the Ring to
+            head-down.
+        - id: V-4
+          name: Head-down 360°
+          description: >
+            While head-down, the Performers separate into two (2) pairs. P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. Each pair, one after the other, flies forward over the Ring
+            and then performs one-half outface Eagle with one-half back loop
+            passing under the Ring to head-down. As the pairs fly over the Ring,
+            they perform a 360° pirouette and perform one-half outface Eagle
+            with one-half back loop passing under the Ring to head-down. The
+            360° pirouette must rotate away from the Start Sideline.
+        - id: V-5
+          name: Head-up 360°
+          description: >
+            While head-down, the Performers separate into two (2) pairs. P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. Each pair, one after the other, flies forward over the Ring
+            and then performs one-half outface Eagle passing under the Ring to
+            head-up. Next, each pair flies backwards over the Ring and performs
+            a 360° pirouette and then performs one-half inface Reverse Eagle
+            under the Ring to head-down.
+        - id: V-6
+          name: Crossing Classic
+          description: >
+            While head-down, the Performers separate into two (2) pairs. P#1 and
+            P#2 will be the leading pair and P#3 and P#4 will be the following
+            pair. Each pair flies forward, and performs a 180° pirouette while
+            the two (2) Performers in the pair crossing each other over the Ring
+            Plane. Each pair then performs one-half inface Eagle under the Ring
+            to inface head-up. While head-up and flying over the Ring Plane,
+            each pair performs a 180° pirouette while the two (2) Performers in
+            the pair crossing each other. Each pair performs one-half inface
+            Reverse Eagle under the Ring to head-down.
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
       patterns: []
