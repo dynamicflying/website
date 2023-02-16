@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Disciplines",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "rules": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "date": {
+              "type": "string",
+              "format": "date",
+              "minLength": 1
+            },
+            "file": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "required": [
+            "date",
+            "file"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1
+      },
+      "pattern_types": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string",
+              "minLength": 1
+            },
+            "icon": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "minLength": 1
+            },
+            "patterns": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "name": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "description": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "transition": {
+                    "type": "boolean",
+                    "default": false
+                  },
+                  "videos": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "url": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "variant": {
+                          "type": "string",
+                          "minLength": 1
+                        },
+                        "outdated_since": {
+                          "type": "string",
+                          "format": "date",
+                          "minLength": 1
+                        }
+                      },
+                      "required": [
+                        "url"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "minItems": 1
+                  }
+                },
+                "required": [
+                  "id",
+                  "name",
+                  "description"
+                ],
+                "additionalProperties": false
+              },
+              "minItems": 1
+            }
+          },
+          "required": [
+            "name",
+            "patterns"
+          ],
+          "additionalProperties": false
+        },
+        "minItems": 1
+      }
+    },
+    "required": [
+      "id",
+      "name",
+      "rules",
+      "pattern_types"
+    ],
+    "additionalProperties": false
+  }
+}
