@@ -263,7 +263,167 @@
             Reverse Eagle under the Ring to head-down.
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
-      patterns: []
-    - name: Exits
-      icon: # pattern_types/exits.svg # or something
-      patterns: []
+      patterns:
+        - id: M-1
+          name: Head-down Inface Circles
+          description: >
+            While head-down, each pair of Performers separates into inface
+            carving in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline, and P#2 followed by P#4, crossing the other Sideline.
+            While head- down, P#1 and P#3, facing one another, and P#2 and P#4,
+            facing one another, perform an additional 360° of inface carving,
+            crossing a Sideline two (2) additional times, once for each half
+            circle. P#1 and P#2 then become the leading pair and fly forwards,
+            crossing through the Sidelines, followed by P#3 and P#4. Thence...
+        - id: M-2
+          name: Head-up Inface Circles
+          description: >
+            While head-down, each pair of Performers flies forwards, crossing
+            through the Sidelines, performing one-half back loop to head-up.
+            While head-up, each pair of Performers separates into inface carving
+            in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline and P#2 followed by P#4, crossing the other Sideline. While
+            head-up, P#1 and P#3, facing one another, and P#2 and P#4, facing
+            one another, perform an additional 360° of inface carving, crossing
+            a Sideline two (2) additional times, once for each half circle. P#1
+            and P#2 become the leading pair and perform one-half inface Reverse
+            Eagle, crossing through the Sidelines, to head-down, followed by P#3
+            and P#4. P#1 and P#2 fly forwards, crossing through the Sidelines,
+            followed by P#3 & P#4. Thence...
+        - id: M-3
+          name: Mixed Circles
+          description: >
+            While head-down, each pair of Performers flies directly through the
+            Sidelines, presenting their backs to each other into 180° of inface
+            carving in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline, and P#2 followed by P#4, crossing the other Sideline. Each
+            pair, one after the other, flies forwards, crossing through the
+            Sidelines, and then performs one-half outface Eagle, passing though
+            the Sidelines again, to head-up, into 180° of outface carving in
+            opposite directions, with P#1 followed by P#3, crossing a Sideline
+            and P#2 followed by P#4, crossing the other Sideline. Then, P#1 and
+            P#2 become the leading pair and fly backwards, crossing through the
+            Sidelines, followed by P#3 and P#4. Each pair, one after the other,
+            then performs one-half inface Reverse Eagle, crossing through the
+            Sidelines, to head-down. P#1 and P#2 fly forwards, crossing through
+            the Sidelines, followed by P#3 and P#4. Thence...
+        - id: M-4
+          name: Reverse Mixed Circles
+          description: >
+            While head-down, each pair flies forwards, crossing through the
+            Sidelines, and then performs one-half outface Eagle, crossing
+            through the Sidelines, into 180° of head-up outface carving in
+            opposite directions, with P#1 followed by P#3, crossing a Sideline
+            and P#2 followed by P#4, crossing the other Sideline. While head-up,
+            P#1 and P#2 then become the leading pair and fly backwards, crossing
+            through the Sidelines, followed by P#3 and P#4. Each pair, one after
+            the other, then performs one-half inface Reverse Eagle, crossing
+            through the Sidelines again, to head-down. Each pair then flies
+            directly through the Sidelines, presenting their backs to each other
+            into 180° of inface carving in opposite directions, with P#1
+            followed by P#3, crossing a Sideline and P#2 followed by P#4,
+            crossing the other Sideline.P#1 and P#2 then become the leading pair
+            and fly forwards through the Sidelines, followed by P#3 and P#4.
+            Thence...
+        - id: M-5
+          name: Head-down Shuffler
+          description: >
+            While head-down, each pair of Performers separates into inface
+            carving in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline and P#2 followed by P#4, crossing the other Sideline. Next,
+            P#1, then P#2, then P#3, then P#4, passes through the centre into
+            180° of outface carving, with P#1, then P#3, crossing a Sideline and
+            P#2, then P#4, crossing the other Sideline. Continuing the Shuffler,
+            P#1, then P#2, then P#3, then P#4, passes through the centre into
+            180° of inface carving, with P#1, then P#3, crossing a Sideline and
+            P#2, then P#4, crossing the other Sideline. P#1 and P#2 then become
+            the leading pair and fly forwards through the Sidelines, followed by
+            P#3 & P#4. Thence...
+        - id: M-6
+          name: Head-up Shuffler
+          description: >
+            While head-down, each pair flies forwards, crossing through the
+            Sidelines, performing one-half back loop to head-up. While head-up,
+            each pair of Performers separates into inface carving in opposite
+            directions, with P#1 followed by P#3, crossing a Sideline and P#2
+            followed by P#4, crossing the other Sideline. Next, P#1, then P#2,
+            then P#3, then P#4, passes through the centre into 180° of outface
+            carving, with P#1, then P#3, crossing a Sideline and P#2, then P#4,
+            crossing the other Sideline. Continuing the Shuffler, P#1, then P#2,
+            then P#3, then P#4, passes through the centre into 180° of inface
+            carving, with P#1, then P#3, crossing a Sideline and P#2, then P#4,
+            crossing the other Sideline. P#1 and P#2 then become the leading
+            pair and perform one-half inface Reverse Eagle, crossing through the
+            Sidelines, to head-down, followed by P#3 and P#4. Each pair then
+            flies forwards crossing through the Sidelines. Thence...
+        - id: M-7
+          name: Mixed Shuffler
+          description: >
+            While head-down, each pair of Performers separates into inface
+            carving in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline and P#2 followed by P#4, crossing the other Sideline. Next,
+            P#1, then P#2, then P#3, then P#4, crosses through the Sidelines
+            while performing one-half inface Eagle to head-up and then perform
+            180° of inface carving, with P#1, then P#3, crossing a Sideline and
+            P#2, then P#4, crossing the other Sideline. Continuing the Shuffler,
+            while head-up, P#1, then P#2, then P#3, then P#4, crosses through
+            the Sidelines and performs 180° of outface carving, with P#1, then
+            P#3, crossing a Sideline and P#2, then P#4, crossing the other
+            Sideline. Then, P#1 and P#2 become the leading pair and fly
+            backwards through the Sidelines, followed by P#3 and P#4. Each pair,
+            one after the other, then performs one-half inface Reverse Eagle,
+            crossing through the Sidelines, to head-down. P#1 and P#2 fly
+            forwards, crossing through the Sidelines, followed by P#3 and P#4.
+            Thence...
+        - id: M-8
+          name: Head-down inface Shuffler
+          description: >
+            While head-down, each pair of Performers separates into inface
+            carving in opposite directions, with P#1 followed by P#3, crossing a
+            Sideline and P#2 followed by P#4, crossing the other Sideline. Next,
+            P#1, then P#2, then P#3, then P#4 passes through the centre
+            (completely crossing the Centreline) into 180° of inface carving,
+            with P#1 followed by P#3, crossing a Sideline and P#2 followed by
+            P#4, crossing the other Sideline. Continuing the Shuffler, P#1, then
+            P#2, then P#3, then P#4, passes through the centre (completely
+            crossing the Centreline) into 180° of inface carving, with P#1
+            followed by P#3, crossing a Sideline and P#2 followed by P#4,
+            crossing the other Sideline. P#1 and P#2 then become the leading
+            pair and fly forwards through the Sidelines, followed by P#3 & P#4.
+            Thence...
+        - id: T0
+          name: Compulsory Transition to any Snake or Compulsory Exit Sequence
+          transition: true
+          description: >
+            ...To transition to a Head-down Snake or Head-down Compulsory Exit
+            Sequence (D4W): Each pair, one after the other, performs one-half
+            outface Eagle with one-half back loop, crossing through the
+            Sidelines, to head-down, ending with each Performer head-down
+            completely on his/her side of the Centreline, right after his/her
+            half back loop. While head-down, each pair then inface carves,
+            crossing a Sideline, before starting any Head-down Snake or
+            Head-down Compulsory Exit Sequence.
+
+            ...To transition to a Head-up Snake or Head-up Compulsory Exit
+            Sequence (D4W): Each pair, one after the other, performs one-half
+            outface Eagle, crossing through the Sidelines, to head-up, ending
+            with each Performer completely on his/her side of the Centreline.
+            While head-up, each pair then flies backwards through the Sidelines,
+            before starting any Head-up Snake or Head-up Compulsory Exit
+            Sequence.
+        - id: E0
+          name: Head-down Compulsory Exit Sequence
+          transition: true
+          description: >
+            While head-down, P#1, followed by P#2, then P#3, then P#4, will
+            inface carve towards the Performers’ right, completely crossing the
+            Centreline, then the Start Sideline before exiting the flight
+            chamber from the far side, while maintaining sequential order.
+        - id: E1
+          name: Head-up Compulsory Exit Sequence
+          transition: true
+          description: >
+            While head-up, P#1, followed by P#2 then P#3, then P#4, will inface
+            carve towards the Performers' left, completely crossing the
+            Centreline, then the Start Sideline before exiting the flight
+            chamber from the far side, while maintaining sequential order.
