@@ -13,7 +13,11 @@ interface Data {
 }
 
 export default function Videos({ disciplines }: { disciplines: Disciplines }) {
-  const [data, setData] = useState<Data>();
+  const [data, setData] = useState<Data>({
+    discipline: null,
+    pattern: null,
+    video: null,
+  });
   const [view, setView] = useState({
     discipline: 'D2W',
     type: null as string,
@@ -22,18 +26,19 @@ export default function Videos({ disciplines }: { disciplines: Disciplines }) {
   });
 
   useEffect(() => {
+    console.log(view);
     let discipline = disciplines.find((d) => d.id === view.discipline),
       pattern = discipline?.pattern_types
         .find((t) => t.name === view.type)
         ?.patterns.find((p) => p.id === view.pattern),
-      video = pattern?.videos[view.video];
+      video = (pattern?.videos || [])[view.video || 0];
 
     setData({
       discipline,
       pattern,
       video,
     });
-  }, [view.discipline, disciplines]);
+  }, [view, disciplines]);
 
   return (
     <div className="flex flex-1 flex-row h-full">
