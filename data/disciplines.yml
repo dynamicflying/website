@@ -666,3 +666,105 @@
             towards his right.
           videos:
             - url: https://www.youtube.com/watch?v=SgzjdJnb6Rk
+    - name: Verticals
+      patterns:
+        - id: T0
+          name: Compulsory Transition from Any Head-down Snake to Any Vertical
+          transition: true
+          description: >
+            While remaining head-down throughout the Compulsory Transition, P#1
+            must cross the Centreline and then the Start Sideline before
+            starting any Vertical.
+        - id: T1
+          name: Compulsory Transition from Any Head-up Snake to Any Vertical
+          transition: true
+          description: >
+            While remaining head-up throughout the Compulsory Transition, P#1
+            must cross the Centreline. When crossing a Sideline, P#1 transitions
+            to head-down in a half inface Reverse Eagle before starting any
+            Vertical.
+        - id: V-1
+          name: Back Layout
+          description: >
+            While head-down, P#1 flies forwards over the Ring and then performs
+            one-half outface Eagle passing under the Ring to head-up. Next, P#1
+            flies backwards over the Ring and performs one-half inface Reverse
+            Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=PW4y4NYsTJY
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=H7SuDwvVGVo
+              variant: From HD Snakes
+        - id: V-2
+          name: Butterfly with Bottom Loops
+          description: >
+            While head-down, P#1 flies forward crossing the Centreline over the
+            Ring. P#1 then performs a bottom loop passing under the Ring to
+            head-down. This sequence is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=3g3Gd4LZDe8
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=UqjwqZTJStI
+              variant: From HD Snakes
+        - id: V-3
+          name: Classic
+          description: >
+            While head-down and flying over the Ring, P#1 performs a 180°
+            pirouette. P#1 then performs one-half inface Eagle under the Ring to
+            head-up. While head-up and flying over the Ring, P#1 performs a 180°
+            pirouette. P#1 performs one-half inface Reverse Eagle under the Ring
+            to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=F_bA9sw5Agk
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=LWHqnkUkpOQ
+              variant: From HD Snakes
+        - id: V-4
+          name: Head-down 360°
+          description: >
+            While head-down, P#1 flies forwards over the ring and then performs
+            a bottom loop passing under the Ring to head-down. As he flies again
+            over the Ring, P#1 performs a 360° pirouette and then a bottom loop
+            passing under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=7vFp5gpcVfc
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=a0YN2QVn1Pw
+              variant: From HD Snakes
+        - id: V-5
+          name: Head-up 360°
+          description: >
+            While head-down, P#1 flies forwards over the Ring and then performs
+            one-half outface Eagle passing under the Ring to head-up. Next, P#1
+            flies backward over the Ring and performs a 360° pirouette and then
+            performs one-half inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=iYpyUn_R46g
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=i3UqE8Uvubs
+              variant: From HD Snakes
+        - id: V-6
+          name: Crossing Classic
+          description: >
+            While head-down, P#1 flies forward, and performs a 180° pirouette
+            while crossing the Centreline over the Ring Plane. P#1 then performs
+            one-half inface Eagle under the Ring to inface head-up. While
+            head-up and flying over the Ring Plane, P#1 performs a 180°
+            pirouette while crossing the Centreline. P#1 performs one-half
+            inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=7QE5Be1G8fo
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=3sbafACHQrU
+              variant: From HD Snakes
+        - id: V-7
+          name: Bottom Loop
+          description: >
+            While head-down, P#1 flies forwards over the Ring and then performs
+            one bottom loop passing under the Ring to head-down. This sequence
+            is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=St9-SNbK5oQ
+              variant: From HU Snakes
+            - url: https://www.youtube.com/watch?v=DO1Z8KbPSOM
+              variant: From HD Snakes
