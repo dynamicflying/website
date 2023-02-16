@@ -16,10 +16,6 @@
             vertical plane in any orientation. Maintaining sequential order, the
             Performers must flow counterclockwise (with respect to the top view)
             into the first Snake.
-          videos:
-            - url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
-              variant: Test variant
-              outdated_since: 2009-10-25
         - id: S-1
           name: Head-down Inface Snake
           description: >
