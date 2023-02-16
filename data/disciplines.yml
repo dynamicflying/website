@@ -564,3 +564,109 @@
             carve towards the Performers' left, completely crossing the
             Centreline, then the Start Sideline before exiting the flight
             chamber from the far side, while maintaining sequential order.
+- id: SS
+  name: Solo Speed
+  rules:
+    - date: 2023-01-01
+      file: files/rules/2023-solo_speed.pdf
+  pattern_types:
+    - name: Snakes
+      patterns:
+        - id: E0
+          name: Compulsory Entrance
+          transition: true
+          description: >
+            P#1 must completely cross the vertical plane defined by the
+            Sidelines. P#1 may cross this vertical plane in any orientation.
+        - id: S-1
+          name: Head-down Inface Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-down inface orientation and
+            remains in head-down inface carving during the entire Pattern. P#1
+            starts by carving towards his left. When passing through the centre
+            the first time, P#1 changes to carving towards his right. When
+            passing through the centre the second time, P#1 changes to carving
+            towards his left.
+          videos:
+            - url: https://www.youtube.com/watch?v=CGLiYJ7gsJw
+        - id: S-2
+          name: Head-down Switching Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-down inface orientation and
+            remains head-down during the entire Pattern. P#1 starts by inface
+            carving towards his left. When passing through the centre the first
+            time, P#1 changes to outface carving towards his left. When passing
+            through the centre the second time, P#1 returns to inface carving
+            towards his left.
+          videos:
+            - url: https://www.youtube.com/watch?v=57s8hC5GSAI
+        - id: S-3
+          name: Head-up Inface Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-up inface orientation and
+            remains in head-up inface carving during the entire Pattern. P#1
+            starts by carving towards his right. When passing through the centre
+            the first time, P#1 changes to carving towards his left. When
+            passing through the centre the second time, P#1 changes to carving
+            towards his right.
+          videos:
+            - url: https://www.youtube.com/watch?v=y7XC7U-wgE8
+        - id: S-4
+          name: Head-up Switching Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-up inface orientation and
+            remains head-up during the entire Pattern. P#1 starts by inface
+            carving towards his right. When passing through the centre the first
+            time, P#1 changes to outface carving towards his right. When passing
+            through the centre the second time, P#1 returns to inface carving
+            towards his right.
+          videos:
+            - url: https://www.youtube.com/watch?v=lSsvXZ64Fuo
+        - id: S-5
+          name: Head-down Mixed Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-down inface orientation and
+            starts by head-down inface carving towards his left. When crossing
+            through the Sidelines for the first time, P#1 transitions through
+            the back down orientation to head-up inface carving towards his
+            left. When crossing through the Sidelines for the second time, P#1
+            transitions through the back-down orientation to head-down inface
+            carving towards his left.
+          videos:
+            - url: https://www.youtube.com/watch?v=v5ZYTlQAKRs
+        - id: S-6
+          name: Head-up Mixed Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-up inface orientation and
+            starts by head-up inface carving towards his right. When crossing
+            through the Sidelines for the first time, P#1 transitions through
+            the back-down orientation to head-down inface carving towards his
+            right. When crossing through the Sidelines for the second time, P#1
+            transitions through the back-down orientation to head-up inface
+            carving towards his right.
+          videos:
+            - url: https://www.youtube.com/watch?v=3MqX6Vk0PfY
+        - id: S-7
+          name: Head-down Inface 360 Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-down inface orientation and
+            remains in head-down inface carving during the entire Pattern. P#1
+            starts by carving towards his left. When passing through the centre
+            the first time, P#1 performs a 360° pirouette and then changes to
+            carving towards his right. When passing through the centre the
+            second time, P#1 performs a 360° pirouette and then changes to
+            carving towards his left.
+          videos:
+            - url: https://www.youtube.com/watch?v=ukoy5ZQdMRA
+        - id: S-8
+          name: Head-up Inface 360 Snake
+          description: >
+            P#1 crosses the Start Sideline in a head-up inface orientation and
+            remains in head-up inface carving during the entire Pattern. P#1
+            starts by carving towards his right. When passing through the centre
+            the first time, P#1 performs a 360° pirouette and then changes to
+            carving towards his left. When passing through the centre the second
+            time, P#1 performs a 360° pirouette and then changes to carving
+            towards his right.
+          videos:
+            - url: https://www.youtube.com/watch?v=SgzjdJnb6Rk
