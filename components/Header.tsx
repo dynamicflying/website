@@ -1,4 +1,4 @@
-import ExportedImage from 'next-image-export-optimizer';
+import Image from 'next/image';
 import Link from 'next/link';
 import logo from '../public/images/logo.png';
 
@@ -6,7 +6,7 @@ export default function Header() {
   return (
     <div className="flex text-white h-20 p-5 border-b-solid border-b-2 border-b-slate-600">
       <div className="flex items-center justify-center ml-5">
-        <ExportedImage src={logo} alt="Logo" width={80} height={80} />
+        <Image src={logo} alt="Logo" width={80} height={80} />
       </div>
       <div className="flex-1 flex items-center justify-evenly text-lg">
         <div className="nav-link">
