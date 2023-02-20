@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@tailwindcss/forms": "^0.5.3",
-    "@types/node": "^18.13.0",
+    "@types/node": "^18.14.0",
     "@types/react": "^18.0.28",
     "@types/react-transition-group": "^4.4.5",
     "autoprefixer": "^10.4.13",
