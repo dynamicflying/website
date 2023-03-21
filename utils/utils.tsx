@@ -1,5 +1,20 @@
 import { useLayoutEffect, useState } from 'react';
 
+/**
+ * Ensures that the given value is of type `T` and not `T[]` (or [][], [][][], ... depending of depth)
+ */
+export function ensureSingle<T, D extends number>(
+  value: T | T[],
+  depth?: D
+): FlatArray<T, D>[][0] {
+  return ([value].flat(depth) as FlatArray<T[], D>)[0];
+}
+
+/** Returns the uppercase and lowercase versions of a string */
+export function getCaseInsensitive(str: string): [string, string] {
+  return [str.toUpperCase(), str.toLowerCase()];
+}
+
 /** Randomize array in-place using Durstenfeld shuffle algorithm */
 export function shuffleArray<T>(array: T[]) {
   const res = [...array];

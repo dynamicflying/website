@@ -16,7 +16,7 @@ export default function Header() {
           <Link href="/rules">Rules</Link>
         </div>
         <div className="nav-link">
-          <Link href="/videos">Videos</Link>
+          <Link href="/videos/D2W/choose">Videos</Link>
         </div>
         <div className="nav-link">
           <Link href="/tools">Tools</Link>

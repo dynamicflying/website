@@ -1,3 +1,4 @@
+import { useRouter } from 'next/router';
 import { useState } from 'react';
 import {
   Menu,
@@ -12,24 +13,22 @@ import { useWindowSize } from '../utils/utils';
 
 interface VideosSidebarProps {
   disciplines: Disciplines;
-  viewState: ReturnType<
-    typeof useState<{
-      discipline: string;
-      type: string;
-      pattern: string;
-      video: number;
-    }>
-  >;
+  view: {
+    discipline: string;
+    pattern: string;
+    video: number;
+  };
 }
 
 export default function VideosSidebar({
   disciplines,
-  viewState,
+  view,
 }: VideosSidebarProps) {
-  const [view, setView] = viewState;
   const [selectorOpen, setSelectorOpen] = useState(false);
   const [activeSubMenu, openSubMenu] = useState(undefined);
   const [width] = useWindowSize();
+
+  const router = useRouter();
 
   const menuItemsStyles: MenuItemStyles = {
     button: ({ level, active, disabled }) => {
@@ -53,7 +52,7 @@ export default function VideosSidebar({
       >
         <Menu closeOnClick menuItemStyles={menuItemsStyles}>
           <SubMenu
-            label={`Discipline: ${view.discipline}`}
+            label={`Discipline: ${router.query.discipline}`}
             icon={<p>D</p>}
             open={selectorOpen}
             onOpenChange={(open) => setSelectorOpen(open)}
@@ -63,12 +62,7 @@ export default function VideosSidebar({
                 key={discipline.id}
                 active={view.discipline == discipline.id}
                 onClick={() => {
-                  setView({
-                    discipline: discipline.id,
-                    type: null,
-                    pattern: null,
-                    video: null,
-                  });
+                  router.push(`/videos/${discipline.id}/choose`);
                   setSelectorOpen(false);
                 }}
               >
@@ -95,13 +89,8 @@ export default function VideosSidebar({
                   onSubMenuOpen={openSubMenu}
                   currentPattern={view.pattern}
                   type={type.name}
-                  onPatternClick={(type, pattern) =>
-                    setView({
-                      discipline: view.discipline,
-                      type,
-                      pattern,
-                      video: null,
-                    })
+                  onPatternClick={(pattern) =>
+                    router.push(`/videos/${view.discipline}/${pattern}`)
                   }
                 />
               );
@@ -120,7 +109,7 @@ interface SubMenuProps {
   currentPattern: string;
   patterns: Pattern[];
   type: string;
-  onPatternClick: (type: string, pattern: string) => void;
+  onPatternClick: (pattern: string) => void;
 }
 
 function CustomSubMenu(props: SubMenuProps) {
@@ -135,7 +124,7 @@ function CustomSubMenu(props: SubMenuProps) {
         <MenuItem
           key={pattern.id}
           active={props.currentPattern == pattern.id}
-          onClick={() => props.onPatternClick(props.type, pattern.id)}
+          onClick={() => props.onPatternClick(pattern.id)}
         >
           {pattern.id} - {pattern.name}
         </MenuItem>
