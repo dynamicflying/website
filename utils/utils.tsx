@@ -1,4 +1,5 @@
 import { useLayoutEffect, useState } from 'react';
+import { Member } from './types';
 
 /**
  * Ensures that the given value is of type `T` and not `T[]` (or [][], [][][], ... depending of depth)
@@ -10,9 +11,24 @@ export function ensureSingle<T, D extends number>(
   return ([value].flat(depth) as FlatArray<T[], D>)[0];
 }
 
+/** Gets a human-readable version of the member role */
+export function getDisplayMemberRole(member: Member): string | undefined {
+  const map: Record<Member['role'], string> = {
+    'deputy-chair': 'Deputy Chair',
+    chair: 'Chair',
+  };
+
+  return map[member.role];
+}
+
 /** Returns the uppercase and lowercase versions of a string */
 export function getCaseInsensitive(str: string): [string, string] {
   return [str.toUpperCase(), str.toLowerCase()];
+}
+
+/** Returns whether the provided url is absolute */
+export function isAbsoluteURL(url: string): boolean {
+  return new RegExp('^(?:[a-z+]+:)?//', 'i').test(url);
 }
 
 /** Randomize array in-place using Durstenfeld shuffle algorithm */

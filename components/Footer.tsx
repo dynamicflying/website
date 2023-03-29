@@ -1,6 +1,7 @@
 import { shuffleArray } from '../utils/utils';
 import ChangingFlag from './ChangingFlag';
 import { customColors } from '../utils/theme';
+import { LINKS } from '../utils/constants';
 
 const logos = {
   facebook: (
@@ -38,10 +39,10 @@ export default function Footer() {
       {/* A paragrah with a copyright symbol, the current year */}
       <p>© {new Date().getFullYear()} Dynamic Flying</p>
       <div className="flex gap-3">
-        <a href="mailto:isc-dynamic@fai.org" target="_blank">
+        <a href={LINKS.email} target="_blank">
           {logos.mail}
         </a>
-        <a href="https://www.facebook.com/DynamicFlyingDF" target="_blank">
+        <a href={LINKS.facebook} target="_blank">
           {logos.facebook}
         </a>
       </div>

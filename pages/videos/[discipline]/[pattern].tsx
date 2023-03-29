@@ -19,6 +19,10 @@ interface VideosQuery {
   video: number;
 }
 
+interface VideosProps {
+  disciplines: Disciplines;
+}
+
 function parseQuery(
   { discipline, pattern, video }: NextRouter['query'],
   disciplines: Disciplines
@@ -46,7 +50,7 @@ function parseQuery(
   };
 }
 
-export default function Videos({ disciplines }: { disciplines: Disciplines }) {
+export default function Videos({ disciplines }: VideosProps) {
   const router = useRouter();
 
   const { discipline, pattern, video } = parseQuery(router.query, disciplines);
@@ -96,7 +100,7 @@ export default function Videos({ disciplines }: { disciplines: Disciplines }) {
   );
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps<VideosProps> = async () => {
   return {
     props: {
       disciplines: parseDisciplines(),
