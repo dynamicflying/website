@@ -43,7 +43,7 @@ export default function PatternDisplay({
             {pattern.remarks && (
               <div className="flex text-md border flex-col ">
                 <Markdown
-                  className="remarks [&>h1]:text-center [&>p>del]:text-red-500 p-2"
+                  className="remarks [&>h1]:text-center [&>p>del]:text-red-500 [&>h3]:pt-5 p-2"
                   md={pattern.remarks}
                 />
               </div>
