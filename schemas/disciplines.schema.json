@@ -104,6 +104,11 @@
                       }
                     ]
                   },
+                  "remarks": {
+                    "description": "Remarks about the pattern, to be put in a box under the description. This section supports Markdown",
+                    "type": "string",
+                    "minLength": 1
+                  },
                   "transition": {
                     "description": "Whether this is a transition",
                     "type": "boolean",

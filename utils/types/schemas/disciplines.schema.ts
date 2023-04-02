@@ -68,7 +68,7 @@ export interface Pattern {
    */
   name: string;
   /**
-   * Either a string, or an array of sections to be rendered as a table.
+   * Either a string, or an array of sections to be rendered as a table. This section supports Markdown
    */
   description:
     | string
@@ -94,6 +94,10 @@ export interface Pattern {
           text: string;
         }[]
       ];
+  /**
+   * Remarks about the pattern, to be put in a box under the description. This section supports Markdown
+   */
+  remarks?: string;
   /**
    * Whether this is a transition
    */

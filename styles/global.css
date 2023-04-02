@@ -13,6 +13,15 @@
   @apply font-semibold underline underline-offset-2 hover:decoration-2 decoration-textAccent hover:text-textAccent transition-colors
 }
 
+.remarks > h1,
+.remarks > h2,
+.remarks > h3,
+.remarks > h4,
+.remarks > h5,
+.remarks > h6 {
+  @apply underline decoration-textAccent italic
+}
+
 .countryflag-enter {
   opacity: 0;
 }
