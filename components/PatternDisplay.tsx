@@ -33,7 +33,11 @@ export default function PatternDisplay({
               </div>
             )}
             <p className="flex text-textBright text-md">
-              {pattern.description}
+              {typeof pattern.description == 'string' ? (
+                pattern.description
+              ) : (
+                <DescriptionTable sections={pattern.description} />
+              )}
             </p>
           </>
         ) : (
@@ -41,5 +45,26 @@ export default function PatternDisplay({
         )}
       </div>
     </div>
+  );
+}
+
+interface DescriptionTableProps {
+  sections: Exclude<Pattern['description'], string>;
+}
+
+function DescriptionTable({ sections }: DescriptionTableProps) {
+  return (
+    <table className="table-auto">
+      <tbody>
+        {sections.map((section) => (
+          <tr key={section.title}>
+            <td className="px-4 py-2 text-textBright font-bold align-top">
+              {section.title}
+            </td>
+            <td className="px-4 py-2 text-textBright">{section.text}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   );
 }

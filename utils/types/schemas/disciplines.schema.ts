@@ -34,7 +34,18 @@ export interface PatternType {
 export interface Pattern {
   id: string;
   name: string;
-  description: string;
+  description:
+    | string
+    | [
+        {
+          title: string;
+          text: string;
+        },
+        ...{
+          title: string;
+          text: string;
+        }[]
+      ];
   transition?: boolean;
   /**
    * @minItems 1
