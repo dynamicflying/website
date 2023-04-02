@@ -1,4 +1,7 @@
 import { useLayoutEffect, useState } from 'react';
+import { remark } from 'remark';
+import html from 'remark-html';
+import gfm from 'remark-gfm';
 
 /**
  * Ensures that the given value is of type `T` and not `T[]` (or [][], [][][], ... depending of depth)
@@ -13,6 +16,18 @@ export function ensureSingle<T, D extends number>(
 /** Returns the uppercase and lowercase versions of a string */
 export function getCaseInsensitive(str: string): [string, string] {
   return [str.toUpperCase(), str.toLowerCase()];
+}
+
+/** Renders a markdown string */
+export function Markdown({ md }: { md: string }) {
+  return (
+    <div
+      className="markdown shadow-underline-slate-800"
+      dangerouslySetInnerHTML={{
+        __html: remark().use(html).use(gfm).processSync(md).toString(),
+      }}
+    />
+  );
 }
 
 /** Randomize array in-place using Durstenfeld shuffle algorithm */

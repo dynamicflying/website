@@ -1,5 +1,6 @@
 import ReactPlayer from 'react-player';
 import { Discipline, Pattern, Video } from '../utils/types';
+import { Markdown } from '../utils/utils';
 
 export interface PatternDisplayProps {
   discipline: Discipline;
@@ -34,7 +35,7 @@ export default function PatternDisplay({
             )}
             <p className="flex text-textBright text-md">
               {typeof pattern.description == 'string' ? (
-                pattern.description
+                <Markdown md={pattern.description} />
               ) : (
                 <DescriptionTable sections={pattern.description} />
               )}
@@ -61,7 +62,9 @@ function DescriptionTable({ sections }: DescriptionTableProps) {
             <td className="px-4 py-2 text-textBright font-bold align-top">
               {section.title}
             </td>
-            <td className="px-4 py-2 text-textBright">{section.text}</td>
+            <td className="px-4 py-2 text-textBright">
+              <Markdown md={section.text} />
+            </td>
           </tr>
         ))}
       </tbody>

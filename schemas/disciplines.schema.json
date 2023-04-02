@@ -75,7 +75,7 @@
                     "minLength": 1
                   },
                   "description": {
-                    "description": "Either a string, or an array of sections to be rendered as a table.",
+                    "description": "Either a string, or an array of sections to be rendered as a table. This section supports Markdown",
                     "anyOf": [
                       {
                         "type": "string",
