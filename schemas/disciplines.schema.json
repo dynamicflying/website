@@ -7,10 +7,12 @@
     "type": "object",
     "properties": {
       "id": {
+        "description": "The id of the discipline",
         "type": "string",
         "minLength": 1
       },
       "name": {
+        "description": "The name of the discipline",
         "type": "string",
         "minLength": 1
       },
@@ -18,22 +20,22 @@
         "type": "array",
         "items": {
           "title": "Rule",
+          "description": "Info about the rules of the discipline",
           "type": "object",
           "properties": {
             "date": {
+              "description": "The date that the file was last updated",
               "type": "string",
               "format": "date",
               "minLength": 1
             },
             "file": {
+              "description": "A path relative to the public folder (like files/rules/abc.pdf)",
               "type": "string",
               "minLength": 1
             }
           },
-          "required": [
-            "date",
-            "file"
-          ],
+          "required": ["date", "file"],
           "additionalProperties": false
         },
         "minItems": 1
@@ -42,94 +44,119 @@
         "type": "array",
         "items": {
           "title": "PatternType",
+          "description": "Info about the pattern types of the discipline (like snakes, verticals, ...)",
           "type": "object",
           "properties": {
             "name": {
+              "description": "The name of the pattern type",
               "type": "string",
               "minLength": 1
             },
             "icon": {
-              "type": [
-                "string",
-                "null"
-              ],
+              "description": "The icon associated with the pattern type. By default, the first letter of the name will be used.",
+              "type": ["string", "null"],
               "minLength": 1
             },
             "patterns": {
               "type": "array",
               "items": {
                 "title": "Pattern",
+                "description": "Info about the actual pattern, move, or transition",
                 "type": "object",
                 "properties": {
                   "id": {
+                    "description": "The official id of the pattern (like S-1). Transitions don't have an official ID: use something like T0, T1, ...",
                     "type": "string",
                     "minLength": 1
                   },
                   "name": {
+                    "description": "The name of the pattern, move, or transition",
                     "type": "string",
                     "minLength": 1
                   },
                   "description": {
+                    "description": "Either a string, or an array of sections to be rendered as a table. This section supports Markdown",
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "title": {
+                              "description": "The title of the section",
+                              "type": "string",
+                              "minLength": 1
+                            },
+                            "text": {
+                              "description": "The text of the section",
+                              "type": "string",
+                              "minLength": 1
+                            }
+                          },
+                          "additionalProperties": false,
+                          "required": ["title", "text"]
+                        },
+                        "minItems": 1
+                      }
+                    ]
+                  },
+                  "remarks": {
+                    "description": "Remarks about the pattern, to be put in a box under the description. This section supports Markdown",
                     "type": "string",
                     "minLength": 1
                   },
                   "transition": {
+                    "description": "Whether this is a transition",
                     "type": "boolean",
                     "default": false
                   },
                   "videos": {
+                    "description": "A list of videos associated with the pattern",
                     "type": "array",
                     "items": {
                       "title": "Video",
                       "type": "object",
                       "properties": {
                         "url": {
+                          "description": "An external URL (usually to YouTube). Supported medias are listed here: https://github.com/CookPete/react-player#supported-media",
                           "type": "string",
                           "minLength": 1
                         },
                         "variant": {
+                          "description": "If there are multiple ways of performing a pattern, specify which one this video is about (e.g. \"From HU Snakes\")",
                           "type": "string",
                           "minLength": 1
                         },
                         "outdated_since": {
+                          "description": "If the video is outdated, specify the date since when it is outdated.",
                           "type": "string",
                           "format": "date",
                           "minLength": 1
                         }
                       },
-                      "required": [
-                        "url"
-                      ],
+                      "required": ["url"],
                       "additionalProperties": false
                     },
                     "minItems": 1
                   }
                 },
-                "required": [
-                  "id",
-                  "name",
-                  "description"
-                ],
+                "required": ["id", "name", "description"],
                 "additionalProperties": false
               },
               "minItems": 1
             }
           },
-          "required": [
-            "name",
-            "patterns"
-          ],
+          "required": ["name", "patterns"],
           "additionalProperties": false
         },
         "minItems": 1
       }
     },
-    "required": [
-      "id",
-      "name",
-      "rules",
-      "pattern_types"
-    ],
+    "required": ["id", "name", "rules", "pattern_types"],
     "additionalProperties": false
   }
 }

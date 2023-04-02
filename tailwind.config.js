@@ -13,6 +13,7 @@ module.exports = {
         bgHover: '#445d87',
         text: '#ccc',
         textBright: '#ffffff',
+        textAccent: '#94a3b8',
       },
     },
   },

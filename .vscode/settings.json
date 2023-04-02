@@ -1,6 +1,6 @@
 {
   "yaml.schemas": {
-    "https://json.schemastore.org/github-workflow.json": "./.github/workflows/*.yml",
-    "./schemas/disciplines.schema.json": "file:///home/endbug/Coding/dynamicflying/website/data/disciplines.yml"
+    "https://json.schemastore.org/github-workflow.json": "/.github/workflows/*.yml",
+    "./schemas/disciplines.schema.json": "/data/disciplines.yml"
   }
 }
