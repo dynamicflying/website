@@ -810,6 +810,11 @@
             inface carving, crossing a Sideline two (2) additional times, once
             for each half circle. Joining as a pair, the Performers then fly
             forwards, crossing through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/rGQJAMmz8po
+              variant: From HU Snakes
+            - url: https://youtu.be/goNKDIwZYOI
+              variant: From HD Snakes
         - id: M-2
           name: Head-up Inface Circles
           description:
@@ -867,6 +872,11 @@
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down ~~and then fly forwards, crossing through the Sidelines.
             Thence...~~
+          videos:
+            - url: https://youtu.be/xylCHgrHPgQ
+              variant: From HU Snakes
+            - url: https://youtu.be/KxB8Q9_feDo
+              variant: From HD Snakes
         - id: M-3
           name: Mixed Circles
           description:
@@ -918,6 +928,11 @@
             Sidelines. The pair then performs one-half inface Reverse Eagle,
             crossing through the Sidelines, to head-down. ~~The pair flies
             forwards, crossing through the Sidelines. Thence...~~
+          videos:
+            - url: https://youtu.be/T2sX6gOaeyk
+              variant: From HU Snakes
+            - url: https://youtu.be/ZKjBDjnRpsw
+              variant: From HD Snakes
         - id: M-4
           name: Reverse Mixed Circles
           description:
@@ -988,6 +1003,11 @@
             opposite directions, with P#1 crossing a Sideline and P#2 crossing
             the other Sideline. Joining as a pair, the Performers fly forwards,
             crossing through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/o9G5db_mdjM
+              variant: From HU Snakes
+            - url: https://youtu.be/lv4zxr_75H8
+              variant: From HD Snakes
         - id: M-5
           name: Head-down Shuffler
           description:
@@ -1031,6 +1051,11 @@
             with P#1 crossing a Sideline and P#2 crossing the other Sideline.
             Joining as a pair, the Performers fly forwards through the
             Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/mdMGTKZVfWU
+              variant: From HU Snakes
+            - url: https://youtu.be/mm1q0qFAMGk
+              variant: From HD Snakes
         - id: M-6
           name: Head-up Shuffler
           description:
@@ -1096,6 +1121,11 @@
             inface Reverse Eagle, crossing through the Sidelines, to head-down.
             ~~The Performers then fly forwards, crossing through the
             Sidelines.~~ Thence...
+          videos:
+            - url: https://youtu.be/C9P1QOB_B2Y
+              variant: From HU Snakes
+            - url: https://youtu.be/eYERw7OK7iU
+              variant: From HD Snakes
         - id: M-7
           name: Mixed Shuffler
           description:
@@ -1149,6 +1179,11 @@
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down ~~and then fly forwards, crossing through the Sidelines.~~
             Thence...
+          videos:
+            - url: https://youtu.be/Q90CQjCyFbE
+              variant: From HU Snakes
+            - url: https://youtu.be/rnT3Lx2jx_s
+              variant: From HD Snakes
         - id: M-8
           name: Head-down inface Shuffler
           description:
@@ -1193,6 +1228,11 @@
             P#2, passes through the centre into 180° of inface carving, with P#1
             crossing a Sideline and P#2 crossing the other Sideline. Joining as
             a pair, the Performers fly forwards through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/L1neHOCQycs
+              variant: From HU Snakes
+            - url: https://youtu.be/0DdBEMI8jic
+              variant: From HD Snakes
         - id: M-9
           name: Head-up inface Shuffler
           description:
@@ -1228,6 +1268,11 @@
             # Differences with D2W
 
             No Head-Up inface Shuffler in D2W.
+          videos:
+            - url: https://youtu.be/WakiZ-qpr_c
+              variant: From HU Snakes
+            - url: https://youtu.be/ShJxNexgPb4
+              variant: From HD Snakes
         - id: E0
           name: Compulsory exit sequence
           description: >
