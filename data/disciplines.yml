@@ -768,3 +768,515 @@
               variant: From HU Snakes
             - url: https://www.youtube.com/watch?v=DO1Z8KbPSOM
               variant: From HD Snakes
+    - name: Mixers
+      patterns:
+        - id: M-1
+          name: Head-down Inface Circles
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 starts by inface carving away from the
+                Centreline presenting his back to the wall, with P#1 crossing a
+                Sideline. While head-down, P#1 performs 360° of inface carving,
+                crossing a Sideline two (2) additional times, once for each half
+                circle. P#1 then flies forwards, crossing through a Sideline.
+                Thence...
+            - title: Transition
+              text: >
+                P#1 performs a bottom loop while crossing through a Sideline,
+                and then flies forwards while passing through the centre and
+                performs a second bottom loop crossing through a Sideline, to
+                head-down.
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-down, P#1 starts by inface carving away from the
+                Centreline presenting his back to the wall, with P#1 crossing a
+                Sideline. While head-down, P#1 performs 360° of inface carving,
+                crossing a Sideline two (2) additional times, once for each half
+                circle. P#1 then flies forwards, crossing through a Sideline.
+                Thence...
+            - title: Transition
+              text: >
+                P#1 performs a bottom loop while crossing through the Sidelines
+                to head-down.
+          remarks: >
+            # Differences with D2W
+
+            ## M-1 Head-down Inface Circles (D2W)
+
+            While head-down, the two (2) Performers separate into inface carving
+            in opposite directions, with P#1 crossing a Sideline and P#2
+            crossing the other Sideline. While head-down, they perform 360° of
+            inface carving, crossing a Sideline two (2) additional times, once
+            for each half circle. Joining as a pair, the Performers then fly
+            forwards, crossing through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/rGQJAMmz8po
+              variant: From HU Snakes
+            - url: https://youtu.be/goNKDIwZYOI
+              variant: From HD Snakes
+        - id: M-2
+          name: Head-up Inface Circles
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 flies forwards, crossing through the
+                Sidelines, performing one-half back loop to head-up. While
+                head-up, P#1 starts by carving away from the Centreline
+                presenting his back to the wall, with P#1 crossing a Sideline.
+                P#1 performs an additional 360° of inface carving, crossing a
+                Sideline two (2) additional times, once for each half circle.
+                P#1 then performs one-half inface Reverse Eagle, crossing
+                through the Sidelines, to head-down.
+            - title: Transition
+              text: >
+                While head-down, P#1 performs one-half back loop to head-up
+                while passing through the centre.
+            - title: Mixer 2
+              text: >
+                While head-up, P#1 starts by carving away from the Centreline
+                presenting his back to the wall, with P#1 crossing a Sideline.
+                P#1 performs an additional 360° of inface carving, crossing a
+                Sideline two (2) additional times, once for each half circle.
+                P#1 then performs one-half inface Reverse Eagle, crossing
+                through the Sidelines, to head-down.
+            - title: Transition
+              text: None
+          remarks: >
+            # Differences with D2W
+
+            ## M-2 Head-up Inface Circles (D2W)
+
+            ### 1st Mixer:
+
+            While head-down, the two (2) Performers, as a pair, fly forwards,
+            crossing through the Sidelines, performing one-half back loop to
+            head-up. While head-up, the two (2) Performers separate into inface
+            carving in opposite directions, with P#1 crossing a Sideline and P#2
+            crossing the other Sideline. They perform an additional 360° of
+            inface carving, crossing a Sideline two (2) additional times, once
+            for each half circle. Joining as a pair, the Performers perform
+            one-half inface Reverse Eagle, crossing through the Sidelines, to
+            head-down ~~and then fly forwards, crossing through the Sidelines.
+            Thence...~~
+
+            ### 2nd Mixer: 
+
+            ~~While head-down, the two (2) Performers, as a pair, fly forwards,
+            crossing through the Sidelines, performing one-half back loop to
+            head-up.~~ While head-up, the two (2) Performers separate into
+            inface carving in opposite directions, with P#1 crossing a Sideline
+            and P#2 crossing the other Sideline. They perform an additional 360°
+            of inface carving, crossing a Sideline two (2) additional times,
+            once for each half circle. Joining as a pair, the Performers perform
+            one-half inface Reverse Eagle, crossing through the Sidelines, to
+            head-down ~~and then fly forwards, crossing through the Sidelines.
+            Thence...~~
+          videos:
+            - url: https://youtu.be/xylCHgrHPgQ
+              variant: From HU Snakes
+            - url: https://youtu.be/KxB8Q9_feDo
+              variant: From HD Snakes
+        - id: M-3
+          name: Mixed Circles
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 flies directly through the Sidelines,
+                presenting his back to the wall into 180° of inface carving,
+                with P#1 crossing a Sideline. P#1 flies forwards, crossing
+                through the Sidelines, and then performs one-half outface Eagle,
+                passing through the Sidelines again, to head-up, into 180° of
+                outface carving away from the Centreline presenting the front of
+                his torso to the wall, with P#1 crossing a Sideline. P#1 flies
+                backwards crossing through the Sidelines. Then P#1 executes
+                one-half inface Reverse Eagle, crossing through the Sidelines,
+                to head-down.
+            - title: Transition
+              text: >
+                While head-down, P#1 flies forwards while passing through the
+                centre and performs a bottom loop while crossing through the
+                Sidelines to head-down.
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-down, P#1 flies directly through the Sidelines into
+                180° of inface carving presenting his back to the wall, with P#1
+                crossing a Sideline. P#1 flies forwards, crossing through the
+                Sidelines, and then performs one-half outface Eagle, passing
+                through the Sidelines again, to head-up, into 180° of outface
+                carving away from the Centreline presenting the front of his
+                torso to the wall, with P#1 crossing a Sideline. P#1 flies
+                backwards crossing through the Sidelines. Then P#1 performs
+                one-half inface Reverse Eagle, crossing through the Sidelines,
+                to head-down.
+            - title: Transition
+              text: None
+          remarks: >
+            # Differences with D2W
+
+            ## M-3 Mixed Circles (D2W)
+
+            While head-down, the two (2) Performers, as a pair, fly directly
+            through the Sidelines, presenting their backs to each other into
+            180° of inface carving in opposite directions, with P#1 crossing a
+            Sideline and P#2 crossing the other Sideline. As a pair, the
+            Performers fly forwards, crossing through the Sidelines, and then
+            perform one-half outface Eagle, passing through the Sidelines again,
+            to head-up, into 180° of outface carving in opposite directions,
+            with P#1 crossing a Sideline and P#2 crossing the other Sideline.
+            Joining as a pair, the Performers fly backwards crossing through the
+            Sidelines. The pair then performs one-half inface Reverse Eagle,
+            crossing through the Sidelines, to head-down. ~~The pair flies
+            forwards, crossing through the Sidelines. Thence...~~
+          videos:
+            - url: https://youtu.be/T2sX6gOaeyk
+              variant: From HU Snakes
+            - url: https://youtu.be/ZKjBDjnRpsw
+              variant: From HD Snakes
+        - id: M-4
+          name: Reverse Mixed Circles
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 flies forwards, crossing through the
+                Sidelines, and then performs one-half outface Eagle to head-up,
+                crossing through the Sidelines again, into 180° of head-up
+                outface carving presenting the front of his torso to the wall,
+                with P#1 crossing a Sideline. While head-up, P#1 flies
+                backwards, crossing through the Sidelines, and then performs
+                one-half inface Reverse Eagle, crossing through the Sidelines
+                again to head-down. P#1then flies directly through the Sidelines
+                into 180° of inface carving presenting his back to the wall,
+                with P#1 crossing a Sideline. P#1 flies forwards, crossing
+                through the Sidelines. Thence ...
+            - title: Transition
+              text: >
+                While head-down, P#1 executes a bottom loop crossing a Sideline
+                and then flies forward passing through the centre to head-down.
+            - title: Mixer 2
+              text: >
+                While head-down, P#1 performs one-half outface Eagle to head up,
+                crossing through the Sidelines again into a 180° of head-up
+                outface carving presenting the front of his torso to the wall,
+                with P#1 crossing a Sideline. While head-up, P#1 flies
+                backwards, crossing through the Sidelines, and then performs
+                one-half inface Reverse Eagle, crossing through the Sidelines
+                again to head-down. P#1 then flies directly through the
+                Sidelines into 180° of inface carving presenting his back to the
+                wall, with P#1 crossing a Sideline. P#1 flies forwards, crossing
+                through the Sidelines. Thence ...
+            - title: Transition
+              text: >
+                While head-down, P#1 executes a bottom loop crossing a Sideline
+                to head-down.
+          remarks: >
+            # Differences with D2W
+
+            ## M-4 Reverse Mixed Circles (D2W)
+
+            ### 1st Mixer:
+
+            While head-down, the pair flies forwards, crossing through the
+            Sidelines, and then performs one-half outface Eagle, crossing
+            through the Sidelines, into 180° of head-up outface carving in
+            opposite directions, with P#1 crossing a Sideline and P#2 crossing
+            the other Sideline. While head-up, both Performers, as a pair, fly
+            backwards, crossing through the Sidelines, and then perform one-half
+            inface Reverse Eagle, crossing through the Sidelines again to
+            head-down. The pair then flies directly through the Sidelines,
+            presenting their backs to each other into 180° of inface carving in
+            opposite directions, with P#1 crossing a Sideline and P#2 crossing
+            the other Sideline. Joining as a pair, the Performers fly forwards,
+            crossing through the Sidelines. Thence...
+
+            ### 2nd Mixer:
+
+            ~~While head-down, the pair flies forwards, crossing through the
+            Sidelines,~~ and then performs one-half outface Eagle, crossing
+            through the Sidelines, into 180° of head-up outface carving in
+            opposite directions, with P#1 crossing a Sideline and P#2 crossing
+            the other Sideline. While head-up, both Performers, as a pair, fly
+            backwards, crossing through the Sidelines, and then perform one-half
+            inface Reverse Eagle, crossing through the Sidelines again to
+            head-down. The pair then flies directly through the Sidelines,
+            presenting their backs to each other into 180° of inface carving in
+            opposite directions, with P#1 crossing a Sideline and P#2 crossing
+            the other Sideline. Joining as a pair, the Performers fly forwards,
+            crossing through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/o9G5db_mdjM
+              variant: From HU Snakes
+            - url: https://youtu.be/lv4zxr_75H8
+              variant: From HD Snakes
+        - id: M-5
+          name: Head-down Shuffler
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall with P#1 crossing a Sideline. Next, P#1 passes
+                through the centre into 180° of outface carving with P#1
+                crossing a Sideline. Continuing the Shuffler, P#1 passes through
+                the centre into 180° of inface carving, and crosses a Sideline.
+                P#1 flies forwards through the Sidelines. Thence...
+            - title: Transition
+              text: >
+                P#1 performs a bottom loop while crossing through a Sideline,
+                and then flies forward passing through the centre and then
+                performs a second bottom loop crossing through a Sideline, to
+                head-down.
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall with P#1 crossing a Sideline. Next, P#1 passes
+                through the centre into 180° of outface carving with P#1
+                crossing a Sideline. Continuing the Shuffler, P#1 passes through
+                the centre into 180° of inface carving, and crosses a Sideline.
+                P#1 flies forwards through the Sidelines. Thence...
+            - title: Transition
+              text: >
+                P#1 performs a bottom loop while crossing through the Sidelines
+                to head-down.
+          remarks: >
+            # Differences with D2W
+
+            ## M-5 Head-down Shuffler (D2W)
+
+            While head-down, the two (2) Performers separate into inface carving
+            in opposite directions, with P#1 crossing a Sideline and P#2
+            crossing the other Sideline. Next, P#1, then P#2, passes through the
+            centre into 180° of outface carving, with P#1 crossing a Sideline
+            and P#2 crossing the other Sideline. Continuing the Shuffler, P#1,
+            then P#2, passes through the centre into 180° of inface carving,
+            with P#1 crossing a Sideline and P#2 crossing the other Sideline.
+            Joining as a pair, the Performers fly forwards through the
+            Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/mdMGTKZVfWU
+              variant: From HU Snakes
+            - url: https://youtu.be/mm1q0qFAMGk
+              variant: From HD Snakes
+        - id: M-6
+          name: Head-up Shuffler
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 flies forwards, crossing through the
+                Sidelines, and performs one-half back loop to head-up. While
+                head-up, P#1 starts by inface carving presenting his back to the
+                wall, and crossing a Sideline. Next, P#1 passes through the
+                centre into 180° of outface carving, with P#1 crossing a
+                Sideline. Continuing the Shuffler, P#1 passes through the centre
+                into 180° of inface carving, and crosses a Sideline. Then, P#1
+                performs one-half inface Reverse Eagle, crossing through the
+                Sidelines, to head-down. Thence...
+            - title: Transition
+              text: >
+                While head-down, P#1 performs one-half back loop to head-up
+                while passing through the centre.
+            - title: Mixer 2
+              text: >
+                While head-up, P#1 starts by inface carving presenting his back
+                to the wall, and crossing a Sideline. Next, P#1 passes through
+                the centre into 180° of outface carving, crossing a Sideline.
+                Continuing the Shuffler, P#1 passes through the centre into 180°
+                of inface carving, with P#1 crossing a Sideline. Then, P#1
+                performs one-half inface Reverse Eagle, crossing through the
+                Sidelines, to head-down.
+            - title: Transition
+              text: None
+          remarks: >
+            # Differences with D2W
+
+            ## M-6 Head-up Shuffler (D2W)
+
+            ### 1st Mixer:
+
+            While head-down, the two (2) Performers, as a pair, fly forwards,
+            crossing through the Sidelines, performing one-half back loop to
+            head-up. While head-up, the two (2) Performers separate into inface
+            carving in opposite directions, with P#1 crossing a Sideline and P#2
+            crossing the other Sideline. Next, P#1, then P#2, passes through the
+            centre into 180° of outface carving, with P#1 crossing a Sideline
+            and P#2 crossing the other Sideline. Continuing the Shuffler, P#1,
+            then P#2, passes through the centre into 180° of inface carving,
+            with P#1 crossing a Sideline and P#2 crossing the other Sideline.
+            Joining as a pair, the Performers perform one-half inface Reverse
+            Eagle, crossing through the Sidelines, to head-down. ~~The
+            Performers then fly forwards, crossing through the Sidelines.~~
+            Thence...
+
+            ### 2nd Mixer:
+
+            ~~While head-down, the two (2) Performers, as a pair, fly forwards,
+            crossing through the Sidelines, performing one-half back loop to
+            head-up.~~ While head-up, the two (2) Performers separate into
+            inface carving in opposite directions, with P#1 crossing a Sideline
+            and P#2 crossing the other Sideline. Next, P#1, then P#2, passes
+            through the centre into 180° of outface carving, with P#1 crossing a
+            Sideline and P#2 crossing the other Sideline. Continuing the
+            Shuffler, P#1, then P#2, passes through the centre into 180° of
+            inface carving, with P#1 crossing a Sideline and P#2 crossing the
+            other Sideline. Joining as a pair, the Performers perform one-half
+            inface Reverse Eagle, crossing through the Sidelines, to head-down.
+            ~~The Performers then fly forwards, crossing through the
+            Sidelines.~~ Thence...
+          videos:
+            - url: https://youtu.be/C9P1QOB_B2Y
+              variant: From HU Snakes
+            - url: https://youtu.be/eYERw7OK7iU
+              variant: From HD Snakes
+        - id: M-7
+          name: Mixed Shuffler
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall and crossing a Sideline. Next, P#1 passes
+                through the centre, while performing one-half inface Eagle to
+                head-up and then performs 180° of inface carving presenting his
+                back to the wall, with P#1 crossing a Sideline. Continuing the
+                Shuffler, while head-up, P#1 passes through the centre and then
+                performs 180° of outface carving, with P#1 crossing a Sideline.
+                P#1 flies backwards through the Sidelines. P#1 then performs
+                one-half inface Reverse Eagle, crossing through the Sidelines,
+                to head-down. Thence...
+            - title: Transition
+              text: >
+                While head-down, P#1 flies through the centre then performs a
+                bottom loop while crossing through a Sideline to head-down.
+                Thence...
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall and crossing a Sideline. Next, P#1 passes
+                through the centre, while performing one-half inface Eagle to
+                head-up and then performs 180° of inface carving presenting his
+                back to the wall, with P#1 crossing a Sideline. Continuing the
+                Shuffler, while head-up, P#1 passes through the centre and then
+                performs 180° of outface carving, with P#1 crossing a Sideline.
+                P#1 flies backwards through the Sidelines. P#1 then performs
+                one-half inface Reverse Eagle, crossing through the Sidelines,
+                to head-down. Thence...
+            - title: Transition
+              text: None
+          remarks: >
+            # Differences with D2W
+
+            ## M-7 Mixed Shuffler (D2W)
+
+            While head-down, the two (2) Performers separate into inface carving
+            in opposite directions, with P#1, crossing a Sideline and P#2,
+            crossing the other Sideline. Next, P#1 then P#2, passes through the
+            centre crossing through the Sidelines, while performing one-half
+            inface Eagle to head-up and then performs 180° of inface carving,
+            with P#1 crossing a Sideline and P#2 crossing the other Sideline.
+            Continuing the Shuffler, while head-up, P#1, then P#2, passes
+            through the centre crossing through the Sidelines and then performs
+            180° of outface carving, with P#1, crossing a Sideline and P#2
+            crossing the other Sideline. Joining as a pair, the Performers fly
+            backwards through the Sidelines. The Performers then perform
+            one-half inface Reverse Eagle, crossing through the Sidelines, to
+            head-down ~~and then fly forwards, crossing through the Sidelines.~~
+            Thence...
+          videos:
+            - url: https://youtu.be/Q90CQjCyFbE
+              variant: From HU Snakes
+            - url: https://youtu.be/rnT3Lx2jx_s
+              variant: From HD Snakes
+        - id: M-8
+          name: Head-down inface Shuffler
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall, and crossing a Sideline. Next, P#1 passes
+                through the centre into 180° of inface carving presenting his
+                back to the wall, with P#1 crossing a Sideline. Continuing the
+                Shuffler, P#1 passes through the centre into 180° of inface
+                carving presenting his back to the wall, while crossing a
+                Sideline. P#1 flies forwards through the Sidelines.
+            - title: Transition
+              text: >
+                P#1 performs a bottom loop while crossing through a Sideline,
+                and then flies forwards while passing through the centre and
+                performs a second bottom loop crossing through a Sideline, to
+                head-down.
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-down, P#1 starts by inface carving presenting his
+                back to the wall, and crossing a Sideline. Next, P#1 passes
+                through the centre into 180° of inface carving presenting his
+                back to the wall, with P#1 crossing a Sideline. Continuing the
+                Shuffler, P#1 passes through the centre into 180° of inface
+                carving presenting his back to the wall, while crossing a
+                Sideline. P#1 flies forwards through the Sidelines.
+            - title: Transition
+              text:
+                P#1 performs a bottom loop while crossing through the Sidelines
+                to head-down.
+          remarks: >
+            # Differences with D2W
+
+            ## M-8 Head-down inface Shuffler (D2W)
+
+            While head-down, the two (2) Performers separate into inface carving
+            in opposite directions, with P#1 crossing a Sideline and P#2
+            crossing the other Sideline. Next, P#1, then P#2, passes through the
+            centre into 180° of inface carving, with P#1 crossing a Sideline and
+            P#2 crossing the other Sideline. Continuing the Shuffler, P#1, then
+            P#2, passes through the centre into 180° of inface carving, with P#1
+            crossing a Sideline and P#2 crossing the other Sideline. Joining as
+            a pair, the Performers fly forwards through the Sidelines. Thence...
+          videos:
+            - url: https://youtu.be/L1neHOCQycs
+              variant: From HU Snakes
+            - url: https://youtu.be/0DdBEMI8jic
+              variant: From HD Snakes
+        - id: M-9
+          name: Head-up inface Shuffler
+          description:
+            - title: Mixer 1
+              text: >
+                While head-down, P#1 flies forwards, crossing through the
+                Sidelines, and performs one-half back loop to head-up. P#1
+                starts by inface carving, presenting his back to the wall, and
+                crossing a Sideline. Next, P#1 passes through the centre into
+                180° of inface carving presenting his back to the wall and
+                crossing a Sideline. Continuing the Shuffler, P#1 passes through
+                the centre into 180° of inface carving presenting his back to
+                the wall, and crossing a Sideline. P#1 then performs one-half
+                inface Reverse Eagle, crossing through the Sidelines, to
+                head-down.
+            - title: Transition
+              text: >
+                While head-down, P#1 performs one-half back loop to head-up
+                while passing through the centre.
+            - title: Mixer 2 (same as Mixer 1)
+              text: >
+                While head-up, P#1 starts by inface carving presenting his back
+                to the wall, and crosses a Sideline. Next, P#1 passes through
+                the centre into 180° of inface carving presenting his back to
+                the wall and crossing a Sideline. Continuing the Shuffler, P#1
+                passes through the centre into 180° of inface carving presenting
+                his back to the wall, and crossing a Sideline. P#1 then performs
+                one-half inface Reverse Eagle, crossing through the Sidelines,
+                to head-down.
+            - title: Transition
+              text: None
+          remarks: >
+            # Differences with D2W
+
+            No Head-Up inface Shuffler in D2W.
+          videos:
+            - url: https://youtu.be/WakiZ-qpr_c
+              variant: From HU Snakes
+            - url: https://youtu.be/ShJxNexgPb4
+              variant: From HD Snakes
+        - id: E0
+          name: Compulsory exit sequence
+          description: >
+            While head-down, P#1 flies over the Ring crossing the Sidelines and
+            then performs one-half outface Eagle passing under the Ring and
+            crossing the Sidelines again before exiting the flight chamber from
+            the far side.

@@ -1,5 +1,8 @@
 import { useLayoutEffect, useState } from 'react';
 import { Member } from './types';
+import { remark } from 'remark';
+import html from 'remark-html';
+import gfm from 'remark-gfm';
 
 /**
  * Ensures that the given value is of type `T` and not `T[]` (or [][], [][][], ... depending of depth)
@@ -29,6 +32,25 @@ export function getCaseInsensitive(str: string): [string, string] {
 /** Returns whether the provided url is absolute */
 export function isAbsoluteURL(url: string): boolean {
   return new RegExp('^(?:[a-z+]+:)?//', 'i').test(url);
+}
+
+interface MarkdownProps {
+  /** The Markdown string to parse */
+  md: string;
+  /** The string to append to the default `class="markdown"` attribute */
+  className?: string;
+}
+
+/** Renders a markdown string */
+export function Markdown({ md, className }: MarkdownProps) {
+  return (
+    <div
+      className={`markdown ${className ?? ''}`}
+      dangerouslySetInnerHTML={{
+        __html: remark().use(html).use(gfm).processSync(md).toString(),
+      }}
+    />
+  );
 }
 
 /** Randomize array in-place using Durstenfeld shuffle algorithm */
