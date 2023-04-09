@@ -20,3 +20,10 @@ schemas.forEach((schema) => {
       console.log(err);
     });
 });
+
+fs.writeFileSync(
+  path.join(__dirname, '../utils/types/index.ts'),
+  schemas
+    .map((s) => `export * from './schemas/${s.replace('.json', '')}'\n`)
+    .join('')
+);
