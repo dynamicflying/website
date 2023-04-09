@@ -1,9 +1,23 @@
 import { shuffleArray } from '../utils/utils';
 import ChangingFlag from './ChangingFlag';
 import { customColors } from '../utils/theme';
+import { LINKS } from '../utils/constants';
+import Link from 'next/link';
 
-const logos = {
-  facebook: (
+const socialLinks: Record<string, JSX.Element> = {
+  [LINKS.email]: (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="ionicon"
+      viewBox="0 0 512 512"
+      fill={customColors.text}
+      width="20"
+    >
+      <title>{'Mail'}</title>
+      <path d="M424 80H88a56.06 56.06 0 0 0-56 56v240a56.06 56.06 0 0 0 56 56h336a56.06 56.06 0 0 0 56-56V136a56.06 56.06 0 0 0-56-56zm-14.18 92.63-144 112a16 16 0 0 1-19.64 0l-144-112a16 16 0 1 1 19.64-25.26L256 251.73l134.18-104.36a16 16 0 0 1 19.64 25.26z" />
+    </svg>
+  ),
+  [LINKS.facebook]: (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       className="ionicon"
@@ -18,18 +32,6 @@ const logos = {
       />
     </svg>
   ),
-  mail: (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="ionicon"
-      viewBox="0 0 512 512"
-      fill={customColors.text}
-      width="20"
-    >
-      <title>{'Mail'}</title>
-      <path d="M424 80H88a56.06 56.06 0 0 0-56 56v240a56.06 56.06 0 0 0 56 56h336a56.06 56.06 0 0 0 56-56V136a56.06 56.06 0 0 0-56-56zm-14.18 92.63-144 112a16 16 0 0 1-19.64 0l-144-112a16 16 0 1 1 19.64-25.26L256 251.73l134.18-104.36a16 16 0 0 1 19.64 25.26z" />
-    </svg>
-  ),
 };
 
 export default function Footer() {
@@ -38,12 +40,11 @@ export default function Footer() {
       {/* A paragrah with a copyright symbol, the current year */}
       <p>© {new Date().getFullYear()} Dynamic Flying</p>
       <div className="flex gap-3">
-        <a href="mailto:isc-dynamic@fai.org" target="_blank">
-          {logos.mail}
-        </a>
-        <a href="https://www.facebook.com/DynamicFlyingDF" target="_blank">
-          {logos.facebook}
-        </a>
+        {Object.entries(socialLinks).map(([url, logo], i) => (
+          <Link key={i} href={url} target="_blank" rel="noreferrer noopener">
+            {logo}
+          </Link>
+        ))}
       </div>
       <div className="flex items-center gap-2">
         <p>{'<>'} with ❤️ in </p>

@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "Committee",
+  "type": "array",
+  "items": {
+    "title": "Member",
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "firstName": {
+        "type": "string",
+        "description": "The first name of the committee member",
+        "minLength": 1
+      },
+      "lastName": {
+        "type": "string",
+        "description": "The last name of the committee member",
+        "minLength": 1
+      },
+      "countryCode": {
+        "type": "string",
+        "description": "The nationality of the committee member, using a 2-letter code. \nCan be checked at https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/4.1.4/flags/4x3/at.svg",
+        "minLength": 2,
+        "maxLength": 2
+      },
+      "role": {
+        "type": "string",
+        "description": "The role of the committee member",
+        "minLength": 1,
+        "oneOf": [
+          {
+            "enum": ["chair", "deputy-chair"]
+          }
+        ]
+      },
+      "past": {
+        "type": "boolean"
+      }
+    },
+    "required": ["firstName", "lastName", "countryCode"]
+  }
+}

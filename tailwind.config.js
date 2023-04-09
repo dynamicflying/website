@@ -15,6 +15,9 @@ module.exports = {
         textBright: '#ffffff',
         textAccent: '#94a3b8',
       },
+      screens: {
+        home: '1100px',
+      },
     },
   },
   plugins: [require('@tailwindcss/forms')],
