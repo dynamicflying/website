@@ -4,6 +4,9 @@ import LinkButton from '../components/LinkButton';
 import { LINKS } from '../utils/constants';
 import { parseCommittee } from '../utils/data';
 import { Committee } from '../utils/types';
+import dfLogo from '../public/images/logo-border.png';
+import faiLogo from '../public/images/fai-logo.png';
+import Image from 'next/image';
 
 interface HomeProps {
   committee: Committee;
@@ -30,6 +33,11 @@ export default function Home({ committee }: HomeProps) {
 
   return (
     <div className="flex flex-col text-textBright items-center py-16 gap-16">
+      <div className="flex flex-row gap-16">
+        <Image src={dfLogo} alt="Logo" height={180} />
+        <Image src={faiLogo} alt="Logo" height={180} />
+      </div>
+
       <div className="flex w-1/2 flex-col gap-10">
         {groupedLinks.map((links, i) => (
           <div
