@@ -13,6 +13,7 @@ export default function LinkButton({ label, url, onClick }: LinkButtonProps) {
       className="flex flex-1 gap-4 items-center justify-start"
       href={url}
       target={isAbsoluteUrl(url) ? '_blank' : '_self'}
+      rel={isAbsoluteUrl(url) ? 'noopener noreferrer' : ''}
     >
       <button
         className="flex flex-grow justify-center rounded-md bg-bgActive hover:bg-bgHover transition-colors"
