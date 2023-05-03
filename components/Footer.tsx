@@ -46,7 +46,7 @@ export default function Footer() {
           </Link>
         ))}
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex max-sm:hidden items-center gap-2">
         <p>{'<>'} with ❤️ in </p>
         <ChangingFlag
           countries={shuffleArray(['IT', 'US', 'FR', 'NO', 'AT', 'CZ'])}
