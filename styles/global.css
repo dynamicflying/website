@@ -45,6 +45,27 @@
   padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
 }
 
+.ps-submenu-expand-icon {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 640px) {
+  .ps-menu-button {
+    padding-left: 8px !important;
+    gap: 0;
+  }
+
+  .ps-menu-icon {
+    margin-right: 0 !important;
+  }
+
+  .ps-collapsed {
+    width: 60px !important;
+    min-width: 60px !important;
+  }
+}
+
 .react-player {
   position: absolute;
   top: 0;

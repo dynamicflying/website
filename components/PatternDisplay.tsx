@@ -15,7 +15,7 @@ export default function PatternDisplay({
 }: PatternDisplayProps) {
   return (
     <div className="flex flex-row h-full text-textBright">
-      <div className="flex flex-col p-10 gap-10">
+      <div className="flex flex-col p-2 sm:p-10 gap-10">
         {pattern ? (
           <>
             <h1 className="flex text-2xl">{`${pattern.name} (${discipline.id})`}</h1>
@@ -66,7 +66,10 @@ function DescriptionTable({ sections }: DescriptionTableProps) {
     <table className="table-auto">
       <tbody>
         {sections.map((section) => (
-          <tr key={section.title}>
+          <tr
+            key={section.title}
+            className="max-sm:flex max-sm:flex-col max-sm:mb-5"
+          >
             <td className="px-4 py-2 font-bold align-top">{section.title}</td>
             <td className="px-4 py-2">
               <Markdown md={section.text} />

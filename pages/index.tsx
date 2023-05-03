@@ -33,7 +33,7 @@ export default function Home({ committee }: HomeProps) {
 
   return (
     <div className="flex flex-col text-textBright items-center py-16 gap-16">
-      <div className="flex flex-row gap-16">
+      <div className="flex flex-col items-center gap-8 home:flex-row home:gap-16">
         <Image src={dfLogo} alt="Logo" height={180} />
         <Image src={faiLogo} alt="Logo" height={180} />
       </div>
