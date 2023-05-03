@@ -66,7 +66,7 @@ export default function Videos({ disciplines }: VideosProps) {
       pattern,
       video,
     });
-  }, [router]);
+  }, [router, discipline, pattern, video]);
 
   const [data, setData] = useState<Data>({
     discipline: null,
@@ -86,7 +86,7 @@ export default function Videos({ disciplines }: VideosProps) {
       pattern: dataPattern,
       video: dataVideo,
     });
-  }, [disciplines]);
+  },    [disciplines, discipline, pattern, video]);
 
   return (
     <div className="flex flex-1 flex-row h-full">
