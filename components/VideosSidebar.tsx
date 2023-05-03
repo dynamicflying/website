@@ -62,8 +62,9 @@ export default function VideosSidebar({
                 key={discipline.id}
                 active={view.discipline == discipline.id}
                 onClick={() => {
-                  router.push(`/videos/${discipline.id}/choose`);
                   setSelectorOpen(false);
+                  openSubMenu(null);
+                  router.push(`/videos/${discipline.id}/choose`);
                 }}
               >
                 {discipline.id}
