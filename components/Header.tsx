@@ -4,9 +4,13 @@ import logo from '../public/images/logo-border.png';
 
 export default function Header() {
   return (
-    <div className="flex text-white h-20 p-5 border-b-solid border-b-2 border-b-slate-600">
-      <div className="flex items-center justify-center ml-5">
-        <Image src={logo} alt="Logo" width={80} height={80} />
+    <div className="flex text-white items-center h-20 p-5 border-b-solid border-b-2 border-b-slate-600">
+      <div className="flex items-center justify-center home:ml-5 m-2">
+        <Image
+          src={logo}
+          alt="Logo"
+          className="flex h-[60px] home:h-[70px] w-[60px] home:w-[70px] max-sm:hidden"
+        />
       </div>
       <div className="flex-1 flex items-center justify-evenly text-lg">
         <div className="nav-link">
