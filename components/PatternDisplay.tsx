@@ -34,22 +34,25 @@ export default function PatternDisplay({
     }
   };
 
+  const playClip = (i: number) => {
+    setClip(i);
+    ref.current.seekTo(video.clips[i][0], 'seconds');
+  };
+
   const handleProgress = ({ playedSeconds }: { playedSeconds: number }) => {
     if (video.clips && clip != null) {
       if (playedSeconds > video.clips[clip][1]) {
-        const nextClip = (clip + 1) % video.clips.length;
+        const nextClip = slowmo ? (clip + 1) % video.clips.length : clip;
 
-        setClip(nextClip);
-        ref.current.seekTo(video.clips[nextClip][0], 'seconds');
-
-        if (nextClip === 0) toggleSlowmo();
+        playClip(nextClip);
+        toggleSlowmo();
       } else if (playedSeconds < video.clips[clip][0] && clip != null) {
-        const prevClip = (clip - 1 + video.clips.length) % video.clips.length;
+        const prevClip = slowmo
+          ? (clip - 1 + video.clips.length) % video.clips.length
+          : clip;
 
-        setClip(prevClip);
-        ref.current.seekTo(video.clips[prevClip][0], 'seconds');
-
-        if (prevClip === video.clips.length - 1) toggleSlowmo();
+        playClip(prevClip);
+        toggleSlowmo();
       }
     }
   };
@@ -59,7 +62,7 @@ export default function PatternDisplay({
       <div className="flex flex-col p-2 sm:p-10 gap-10">
         {pattern ? (
           <>
-            <h1 className="flex text-2xl">{`${pattern.name} (${discipline.id})`}</h1>
+            <h1 className="flex text-2xl">{`${pattern.id} - ${pattern.name} (${discipline.id})`}</h1>
             {video && (
               <div className="player-wrapper">
                 <ReactPlayer
@@ -76,6 +79,7 @@ export default function PatternDisplay({
                   onStart={handleStart}
                   playing
                   playbackRate={slowmo ? 0.5 : 1}
+                  progressInterval={250}
                 />
               </div>
             )}
