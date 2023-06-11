@@ -127,7 +127,8 @@ function CustomSubMenu(props: SubMenuProps) {
           active={props.currentPattern == pattern.id}
           onClick={() => props.onPatternClick(pattern.id)}
         >
-          {pattern.id} - {pattern.name}
+          {!pattern.transition ? pattern.id + ' - ' : ''}
+          {pattern.name}
         </MenuItem>
       ))}
     </SubMenu>

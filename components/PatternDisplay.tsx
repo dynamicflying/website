@@ -62,7 +62,9 @@ export default function PatternDisplay({
       <div className="flex flex-col p-2 sm:p-10 gap-10">
         {pattern ? (
           <>
-            <h1 className="flex text-2xl">{`${pattern.id} - ${pattern.name} (${discipline.id})`}</h1>
+            <h1 className="flex text-2xl">{`${
+              !pattern.transition ? pattern.id + ' - ' : ''
+            }${pattern.name} (${discipline.id})`}</h1>
             {video && (
               <div className="player-wrapper">
                 <ReactPlayer

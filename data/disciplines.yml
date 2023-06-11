@@ -319,8 +319,9 @@
             carving, with P#1 crossing a Sideline and P#2 crossing the other
             Sideline. Joining as a pair, the Performers fly forwards through the
             Sidelines. Thence...
-        - id: T0
+        - id: T2
           name: Compulsory Transition to any Snake or Compulsory Exit Sequence
+          transition: true
           description: >
             ...To transition to a Head-down Snake or Head-down Compulsory Exit
             Sequence (D2W): The pair then performs one-half outface Eagle with
@@ -335,15 +336,17 @@
             Performer completely on his/her side of the Centreline. While
             head-up, the pair then flies backwards through the Sidelines, before
             starting any Head-up Snake or Head-up Compulsory Exit Sequence.
-        - id: E0
+        - id: E1
           name: Head-down Compulsory Exit Sequence
+          transition: true
           description: >
             While head-down, P#1, followed by P#2, inface carves towards the
             Performers' right, completely crossing the Start Sideline before
             exiting the flight chamber from the far side, while maintaining
             sequential order.
-        - id: E1
+        - id: E2
           name: Head-up Compulsory Exit Sequence
+          transition: true
           description: >
             While head-up, P#1, followed by P#2, inface carves towards the
             Performers' left, completely crossing the Start Sideline before
