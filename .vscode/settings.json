@@ -3,5 +3,6 @@
     "https://json.schemastore.org/github-workflow.json": "/.github/workflows/*.yml",
     "./schemas/disciplines.schema.json": "/data/disciplines.yml",
     "./schemas/committee.schema.json": "/data/committee.yml"
-  }
+  },
+  "prettier.prettierPath": "./node_modules/prettier"
 }
