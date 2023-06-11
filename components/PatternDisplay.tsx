@@ -2,11 +2,8 @@ import ReactPlayer from 'react-player';
 import { Discipline, Pattern, Video } from '../utils/types';
 import { Markdown } from '../utils/utils';
 import { createRef, useState } from 'react';
-import { Menu, MenuItem, Sidebar, SubMenu } from 'react-pro-sidebar';
-import { customColors } from '../utils/theme';
 import Select from './Select';
 import { useRouter } from 'next/router';
-import Link from 'next/link';
 
 export interface PatternDisplayProps {
   discipline: Discipline;
@@ -80,7 +77,6 @@ export default function PatternDisplay({
                   playing
                   playbackRate={slowmo ? 0.5 : 1}
                 />
-                {/* <iframe width="560" height="315" src="https://www.youtube.com/watch?v=0BDL6auws08&list=PLsmusSbOACFP3RlBqo-HIuP-nKVeuslEE&index=34" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe> */}
               </div>
             )}
             {video && pattern.videos?.length > 1 && (
