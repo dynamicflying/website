@@ -5,6 +5,13 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
+/**
+ * The start and end time of the clip (in seconds)
+ *
+ * @minItems 2
+ * @maxItems 2
+ */
+export type Clip = [number, number];
 export type Disciplines = Discipline[];
 
 export interface Discipline {
@@ -114,6 +121,10 @@ export interface Video {
    * An external URL (usually to YouTube). Supported medias are listed here: https://github.com/CookPete/react-player#supported-media
    */
   url: string;
+  /**
+   * An array of clips to be played in the video. If not specified, the whole video will be played.
+   */
+  clips?: Clip[];
   /**
    * If there are multiple ways of performing a pattern, specify which one this video is about (e.g. "From HU Snakes")
    */
