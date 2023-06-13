@@ -145,6 +145,12 @@
             While remaining head-down throughout the Compulsory Transition, P#1,
             followed by P#2, must cross the Centreline and then the Start
             Sideline before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [15, 16.5]
+                - [32, 33.5]
+                - [49, 50.5]
         - id: T1
           name: Compulsory Transition from Any Head-up Snake to Any Vertical
           transition: true
@@ -153,6 +159,12 @@
             must cross the Centreline. When crossing a Sideline, each Performer
             transitions to head-down in a half inface Reverse Eagle before
             starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [24, 25.5]
+                - [40, 41]
+                - [56, 57.5]
         - id: V-1
           name: Back Layout
           description: >
@@ -161,6 +173,12 @@
             outface Eagle passing under the Ring to head-up. Next, the pair
             flies backwards over the Ring and performs one-half inface Reverse
             Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [16, 20]
+                - [33, 37]
+                - [50, 54]
         - id: V-2
           name: Butterfly with Bottom Loops
           description: >
@@ -169,6 +187,12 @@
             crossing each other, over the Ring. The pair then performs one-half
             outface Eagle with one-half back loop passing under the Ring to
             head-down. This sequence is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=Tjs_T3wsPvM
+              clips:
+                - [16, 21]
+                - [36, 41]
+                - [55, 60.5]
         - id: V-3
           name: Classic
           description: >
@@ -178,6 +202,12 @@
             Eagle under the Ring to head-up. While head-up and flying over the
             Ring, each Performer in the pair performs a 180° pirouette. The pair
             performs one-half inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [25, 29.5]
+                - [41, 45.5]
+                - [57, 61.5]
         - id: V-4
           name: Head-down 360°
           description: >
@@ -187,6 +217,12 @@
             head-down. As they fly over the Ring, they perform a 360° pirouette
             and perform one-half outface Eagle with one-half back loop passing
             under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=J0N6zfpQjKI
+              clips:
+                - [23, 27.5]
+                - [42, 46.5]
+                - [61, 66.5]
         - id: V-5
           name: Head-up 360°
           description: >
@@ -195,6 +231,12 @@
             outface Eagle passing under the Ring to head-up. Next, the pair
             flies backward over the Ring and performs a 360° pirouette and then
             performs one-half inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=FMnv--NP0tg
+              clips:
+                - [13, 17.5]
+                - [30, 35]
+                - [47, 52]
         - id: V-6
           name: Crossing Classic
           description: >
@@ -205,6 +247,12 @@
             flying over the Ring Plane, each Performer in the pair performs a
             180° pirouette while crossing each other. The pair performs one-half
             inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=X0f38juwSNg
+              clips:
+                - [24, 29]
+                - [39, 43.5]
+                - [54, 58.5]
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
       patterns:
