@@ -264,7 +264,13 @@
             crossing the other Sideline. While head-down, they perform 360° of
             inface carving, crossing a Sideline two (2) additional times, once
             for each half circle. Joining as a pair, the Performers then fly
-            forwards, crossing through the Sidelines. Thence...
+            forwards, crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=X0f38juwSNg
+              clips:
+                - [28, 31.5]
+                - [43, 46.5]
+                - [58, 61]
         - id: M-2
           name: Head-up Inface Circles
           description: >
@@ -277,7 +283,13 @@
             for each half circle. Joining as a pair, the Performers perform
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down and then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=taC_oVukeYI
+              clips:
+                - [18.5, 23.5]
+                - [36.5, 42]
+                - [55.5, 60.5]
         - id: M-3
           name: Mixed Circles
           description: >
@@ -292,7 +304,13 @@
             Joining as a pair, the Performers fly backwards crossing through the
             Sidelines. The pair then performs one-half inface Reverse Eagle,
             crossing through the Sidelines, to head-down. The pair flies
-            forwards, crossing through the Sidelines. Thence...
+            forwards, crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [20, 25.5]
+                - [37, 42.5]
+                - [54, 60]
         - id: M-4
           name: Reverse Mixed Circles
           description: >
@@ -307,7 +325,13 @@
             presenting their backs to each other into 180° of inface carving in
             opposite directions, with P#1 crossing a Sideline and P#2 crossing
             the other Sideline. Joining as a pair, the Performers fly forwards,
-            crossing through the Sidelines. Thence...
+            crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=Tjs_T3wsPvM
+              clips:
+                - [20.5, 28]
+                - [40, 47.5]
+                - [60, 67]
         - id: M-5
           name: Head-down Shuffler
           description: >
@@ -320,7 +344,13 @@
             centre (completely crossing the Centreline) into 180° of inface
             carving, with P#1 crossing a Sideline and P#2 crossing the other
             Sideline. Joining as a pair, the Performers fly forwards through the
-            Sidelines. Thence...
+            Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [29, 33.5]
+                - [45, 50]
+                - [61, 66]
         - id: M-6
           name: Head-up Shuffler
           description: >
@@ -337,7 +367,13 @@
             Sideline. Joining as a pair, the Performers perform one-half inface
             Reverse Eagle, crossing through the Sidelines, to head-down. The
             Performers then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=pTATSuGs208
+              clips:
+                - [17, 24]
+                - [38, 45.5]
+                - [59, 66.5]
         - id: M-7
           name: Mixed Shuffler
           description: >
@@ -353,7 +389,13 @@
             fly backwards through the Sidelines. The Performers then perform
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down and then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=J0N6zfpQjKI
+              clips:
+                - [27, 34.5]
+                - [46.5, 54]
+                - [66.5, 73.5]
         - id: M-8
           name: Head-down inface Shuffler
           description: >
@@ -366,7 +408,13 @@
             centre (completely crossing the Centreline) into 180° of inface
             carving, with P#1 crossing a Sideline and P#2 crossing the other
             Sideline. Joining as a pair, the Performers fly forwards through the
-            Sidelines. Thence...
+            Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=FMnv--NP0tg
+              clips:
+                - [17, 22.5]
+                - [35, 40.5]
+                - [52, 57.5]
         - id: T2
           name: Compulsory Transition to any Snake or Compulsory Exit Sequence
           transition: true
@@ -384,6 +432,19 @@
             Performer completely on his/her side of the Centreline. While
             head-up, the pair then flies backwards through the Sidelines, before
             starting any Head-up Snake or Head-up Compulsory Exit Sequence.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              variant: Into HD Snakes
+              clips:
+                - [26, 28]
+                - [43, 45]
+                - [60.5, 62.5]
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              variant: Into HU Snakes
+              clips:
+                - [33.5, 36]
+                - [49, 52]
+                - [66, 68.5]
         - id: E1
           name: Head-down Compulsory Exit Sequence
           transition: true
@@ -392,6 +453,10 @@
             Performers' right, completely crossing the Start Sideline before
             exiting the flight chamber from the far side, while maintaining
             sequential order.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [62.5, 65]
         - id: E2
           name: Head-up Compulsory Exit Sequence
           transition: true
@@ -400,6 +465,11 @@
             Performers' left, completely crossing the Start Sideline before
             exiting the flight chamber from the far side, while maintaining
             sequential order.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [68, 70]
+
 - id: D4W
   name: Dynamic 4-Way
   rules: *dynamic-rules
