@@ -6,7 +6,7 @@
   pattern_types:
     - name: Snakes
       icon: # pattern_types/snakes.svg # or something
-      patterns: &dynamic-snakes
+      patterns:
         - id: E0
           name: Compulsory Entrance
           transition: true
@@ -477,7 +477,136 @@
     - name: Snakes
       icon: # pattern_types/snakes.svg # or something
       # I'm currently just referencing the same patterns as D2W, but this can be copied over if they diverge
-      patterns: *dynamic-snakes
+      patterns: 
+        - id: E0
+          name: Compulsory Entrance
+          transition: true
+          description: >
+            P#1, followed by P#2 through P#4, must completely cross the vertical
+            plane defined by the Sidelines. The Performers may cross this
+            vertical plane in any orientation. Maintaining sequential order, the
+            Performers must flow counterclockwise (with respect to the top view)
+            into the first Snake.
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              variant: 'Into HD Snakes'
+              clips:
+                - [16, 19.5]
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              variant: 'Into HU Snakes'
+              clips:
+                - [8, 11.5]
+        - id: S-1
+          name: Head-down Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain in head-down inface carving during the entire
+            Pattern. Performers begin by carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her left in the first and
+            third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [17.5, 24.5]
+                - [35, 42.5]
+                - [52.5, 60]
+        - id: S-2
+          name: Head-down Switching Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain head-down during the entire Pattern.
+            Performers begin by inface carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to outface
+            carving towards his/her left in the first and third Snake (right in
+            the second Snake). When passing through the centre the second time,
+            each Performer returns to inface carving towards his/her left in the
+            first and third Snake (right in the second Snake)
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [5.5, 12]
+                - [24, 31.5]
+                - [44, 51]
+        - id: S-3
+          name: Head-up Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain in head-up inface carving during the entire Pattern.
+            Performers begin by carving towards the Performers' right in the
+            first and third Snake (left in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her left in the first and third Snake (right in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her right in the first and
+            third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [10, 16]
+                - [30, 36.5]
+                - [50, 57]
+        - id: S-4
+          name: Head-up Switching Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain head-up during the entire Pattern. Performers begin by
+            inface carving towards the Performers' right in the first and third
+            Snake (left in the second Snake). When passing through the centre
+            the first time, each Performer changes to outface carving towards
+            his/her right in the first and third Snake (left in the second
+            Snake). When passing through the centre the second time, each
+            Performer returns to inface carving towards his/her right in the
+            first and third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=Rl7IGiiDwxo
+              clips:
+                - [13, 20]
+                - [33, 40.5]
+                # bail on the 3rd page, ignore clip
+        - id: S-5
+          name: Head-down Mixed Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and begin by head-down inface carving towards the
+            Performers' left in the first and third Snake (right in the second
+            Snake). When crossing through the Sidelines for the first time, each
+            Performer transitions through the back down orientation to head- up
+            inface carving towards his/her left in the first and third Snake
+            (right in the second Snake). When crossing through the Sidelines for
+            the second time, each Performer transitions through the back-down
+            orientation to head-down inface carving towards his/her left in the
+            first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=DVTZVn2GRMI
+              clips:
+                # bust on 1st page, ignore clip
+                - [29.5, 38]
+                - [50.5, 58.5]
+        - id: S-6
+          name: Head-up Mixed Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and begin by head-up inface carving towards the Performers' right in
+            the first and third Snake (left in the second Snake). When crossing
+            through the Sidelines for the first time, each Performer transitions
+            through the back-down orientation to head-down inface carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When crossing through the Sidelines for the second
+            time, each Performer transitions through the backdown orientation to
+            head-up inface carving towards his/her right in the first and third
+            Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=5XxwyK25CFs
+              clips:
+                - [6, 13.5]
+                - [26, 34]
+                - [47, 55]
+    
     - name: Verticals
       icon: # pattern_types/verticals.svg # or something
       patterns:
