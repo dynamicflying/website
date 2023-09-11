@@ -4,3 +4,4 @@ command = 'npm run build'
 
 [build.environment]
 BASE_PATH = ''
+NETLIFY_NEXT_PLUGIN_SKIP = true
