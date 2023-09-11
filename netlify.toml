@@ -3,4 +3,4 @@ publish = 'out'
 command = 'npm run build'
 
 [build.environment]
-BASE_PATH = '/'
+BASE_PATH = ''
