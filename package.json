@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run compile:types && next build && next export",
+    "build": "npm run compile:types && next build",
     "compile:types": "ts-node --skipProject scripts/compile-types.ts",
     "start": "next start"
   },
