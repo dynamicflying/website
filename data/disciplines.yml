@@ -617,6 +617,12 @@
             While remaining head-down throughout the Compulsory Transition, P#1,
             followed by P#2 through P#4, must cross the Centreline and then the
             Start Sideline before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [10, 12.5]
+                - [29, 32]
+                - [48.5, 51]
         - id: T1
           name: Compulsory Transition from Any Head-up Snake to Any Vertical
           transition: true
@@ -625,6 +631,12 @@
             and P#3 must cross the Centreline. When crossing through the
             Sidelines, each Performer transitions to head-down in a half inface
             Reverse Eagle before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=-S--noyN53M
+              clips:
+                - [10, 13.5]
+                - [30, 34]
+                - [48.5, 52]
         - id: V-1
           name: Back Layout
           description: >
@@ -635,6 +647,12 @@
             head-up. Next, each pair, one after the other, flies backward over
             the Ring and performs one-half inface Reverse Eagle under the Ring
             to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=-S--noyN53M
+              clips:
+                - [12, 17.5]
+                - [32.5, 38]
+                - [50.5, 56.5]
         - id: V-2
           name: Butterfly with Bottom Loops
           description: >
@@ -645,6 +663,12 @@
             each pair, one after the other, performs one-half outface Eagle with
             one-half back loop passing under the Ring to head-down. This
             sequence is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [24, 29.5]
+                - [41, 47]
+                - [59, 64.5]
         - id: V-3
           name: Classic
           description: >
@@ -656,6 +680,12 @@
             over the Ring, each Performer in the pair performs a 180° pirouette.
             The pair performs one-half inface Reverse Eagle under the Ring to
             head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=LDCIkFtQEas
+              clips:
+                - [27, 33]
+                - [46, 51.5]
+                - [65, 70.5]
         - id: V-4
           name: Head-down 360°
           description: >
@@ -667,6 +697,12 @@
             they perform a 360° pirouette and perform one-half outface Eagle
             with one-half back loop passing under the Ring to head-down. The
             360° pirouette must rotate away from the Start Sideline.
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [12, 17.5]
+                - [31, 37]
+                - [50, 56]
         - id: V-5
           name: Head-up 360°
           description: >
@@ -677,6 +713,12 @@
             head-up. Next, each pair flies backwards over the Ring and performs
             a 360° pirouette and then performs one-half inface Reverse Eagle
             under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=Rl7IGiiDwxo
+              clips:
+                - [19.5, 25]
+                - [40, 46]
+                - [63, 68.5]
         - id: V-6
           name: Crossing Classic
           description: >
@@ -689,6 +731,12 @@
             each pair performs a 180° pirouette while the two (2) Performers in
             the pair crossing each other. Each pair performs one-half inface
             Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [16.5, 22]
+                - [36.5, 42.5]
+                - [56.5, 62.5]
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
       patterns:
