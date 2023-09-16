@@ -31,6 +31,7 @@ export default function PatternDisplay({
     if (video.clips) {
       setClip(0);
       ref.current.seekTo(video.clips[0][0], 'seconds');
+      setSlowmo(false)
     }
   };
 
