@@ -14,7 +14,7 @@
     "autoprefixer": "^10.4.15",
     "eslint-config-next": "^13.4.19",
     "json-schema-to-typescript": "^13.1.1",
-    "next": "^13.4.19",
+    "next": "^13.5.2",
     "postcss": "^8.4.29",
     "prettier": "^3.0.3",
     "react": "^18.2.0",
