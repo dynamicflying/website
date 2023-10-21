@@ -54,14 +54,16 @@ export default function PatternDisplay({
 
   const handleProgress = ({ playedSeconds }: { playedSeconds: number }) => {
     if (video.clips && clip != null && autoClips) {
+      const changeClip = !autoSlowmo || slowmo;
+
       if (playedSeconds > video.clips[clip][1]) {
-        const nextClip = slowmo ? (clip + 1) % video.clips.length : clip;
+        const nextClip = changeClip ? (clip + 1) % video.clips.length : clip;
 
         playClip(nextClip);
         if (autoSlowmo)
           toggleSlowmo();
       } else if (playedSeconds < video.clips[clip][0] && clip != null) {
-        const prevClip = slowmo
+        const prevClip = changeClip
           ? (clip - 1 + video.clips.length) % video.clips.length
           : clip;
 
