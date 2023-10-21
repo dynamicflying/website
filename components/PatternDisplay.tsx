@@ -1,9 +1,10 @@
 import ReactPlayer from 'react-player';
 import { Discipline, Pattern, Video } from '../utils/types';
 import { Markdown } from '../utils/utils';
-import { createRef, useState } from 'react';
+import { createRef, useEffect, useState } from 'react';
 import Select from './Select';
 import { useRouter } from 'next/router';
+import Switch from './Switch';
 
 export interface PatternDisplayProps {
   discipline: Discipline;
@@ -19,11 +20,22 @@ export default function PatternDisplay({
   const ref = createRef<ReactPlayer>();
   const [slowmo, setSlowmo] = useState(false);
   const [clip, setClip] = useState<number | null>(null);
+  const [autoClips, setAutoClips] = useState(true);
+  const [autoSlowmo, setAutoSlowmo] = useState(true);
+
+  useEffect(() => {
+    if (localStorage.getItem('autoClips') === 'false') {
+      setAutoClips(false);
+    }
+    if (localStorage.getItem('autoSlowmo') === 'false') {
+      setAutoSlowmo(false);
+    }
+  }, [])
 
   const router = useRouter();
 
   const toggleSlowmo = () => {
-    setSlowmo(!slowmo);
+    setSlowmo(curr => !curr);
     ref.current.setState({ playbackRate: !slowmo ? 0.5 : 1 });
   };
 
@@ -41,19 +53,21 @@ export default function PatternDisplay({
   };
 
   const handleProgress = ({ playedSeconds }: { playedSeconds: number }) => {
-    if (video.clips && clip != null) {
+    if (video.clips && clip != null && autoClips) {
       if (playedSeconds > video.clips[clip][1]) {
         const nextClip = slowmo ? (clip + 1) % video.clips.length : clip;
 
         playClip(nextClip);
-        toggleSlowmo();
+        if (autoSlowmo)
+          toggleSlowmo();
       } else if (playedSeconds < video.clips[clip][0] && clip != null) {
         const prevClip = slowmo
           ? (clip - 1 + video.clips.length) % video.clips.length
           : clip;
 
         playClip(prevClip);
-        toggleSlowmo();
+        if (autoSlowmo)
+          toggleSlowmo();
       }
     }
   };
@@ -63,27 +77,53 @@ export default function PatternDisplay({
       <div className="flex flex-col p-2 sm:p-10 gap-10">
         {pattern ? (
           <>
-            <h1 className="flex text-2xl">{`${
-              !pattern.transition ? pattern.id + ' - ' : ''
-            }${pattern.name} (${discipline.id})`}</h1>
+            <h1 className="flex text-2xl">{`${!pattern.transition ? pattern.id + ' - ' : ''
+              }${pattern.name} (${discipline.id})`}</h1>
             {video && (
-              <div className="player-wrapper">
-                <ReactPlayer
-                  ref={ref}
-                  className="react-player"
-                  width="100%"
-                  height="100%"
-                  url={video.url}
-                  controls
-                  volume={1}
-                  muted
-                  pip
-                  onProgress={handleProgress}
-                  onStart={handleStart}
-                  playing
-                  playbackRate={slowmo ? 0.5 : 1}
-                  progressInterval={250}
-                />
+              <div>
+                <div className="player-wrapper">
+                  <ReactPlayer
+                    ref={ref}
+                    className="react-player"
+                    width="100%"
+                    height="100%"
+                    url={video.url}
+                    controls
+                    volume={1}
+                    muted
+                    pip
+                    onProgress={handleProgress}
+                    onStart={handleStart}
+                    playing
+                    playbackRate={slowmo ? 0.5 : 1}
+                    progressInterval={250}
+                  />
+                </div>
+                <div className='m-3 flex flex-col min-[450px]:flex-row gap-5'>
+                  <Switch
+                    checked={autoClips}
+                    disabled={!video.clips}
+                    label="Auto-play clips"
+                    onCheckedChange={(checked) => {
+                      setAutoClips(checked);
+                      localStorage.setItem('autoClips', checked.toString());
+                      setSlowmo(false);
+                    }
+                    }
+                  />
+                  <Switch
+                    checked={autoSlowmo && autoClips}
+                    disabled={!video.clips || !autoClips}
+                    label="Auto-play slowmo"
+                    onCheckedChange={(checked) => {
+                      setAutoSlowmo(checked);
+                      localStorage.setItem('autoSlowmo', checked.toString());
+                      if (!checked)
+                        setSlowmo(false);
+                    }
+                    }
+                  />
+                </div>
               </div>
             )}
             {video && pattern.videos?.length > 1 && (
