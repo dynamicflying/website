@@ -126,6 +126,21 @@
                           "type": "string",
                           "minLength": 1
                         },
+                        "clips": {
+                          "description": "An array of clips to be played in the video. If not specified, the whole video will be played.",
+                          "type": "array",
+                          "minLength": 1,
+                          "items": {
+                            "title": "Clip",
+                            "description": "The start and end time of the clip (in seconds)",
+                            "type": "array",
+                            "minItems": 2,
+                            "maxItems": 2,
+                            "items": {
+                              "type": "number"
+                            }
+                          }
+                        },
                         "variant": {
                           "description": "If there are multiple ways of performing a pattern, specify which one this video is about (e.g. \"From HU Snakes\")",
                           "type": "string",

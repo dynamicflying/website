@@ -6,7 +6,7 @@
   pattern_types:
     - name: Snakes
       icon: # pattern_types/snakes.svg # or something
-      patterns: &dynamic-snakes
+      patterns:
         - id: E0
           name: Compulsory Entrance
           transition: true
@@ -16,6 +16,15 @@
             vertical plane in any orientation. Maintaining sequential order, the
             Performers must flow counterclockwise (with respect to the top view)
             into the first Snake.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              variant: 'Into HD Snakes'
+              clips:
+                - [9, 11.5]
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              variant: 'Into HU Snakes'
+              clips:
+                - [17, 20]
         - id: S-1
           name: Head-down Inface Snake
           description: >
@@ -28,6 +37,12 @@
             second Snake). When passing through the centre the second time, each
             Performer changes to carving towards his/her left in the first and
             third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [11, 16.5]
+                - [28, 33.5]
+                - [45, 51]
         - id: S-2
           name: Head-down Switching Snake
           description: >
@@ -40,6 +55,12 @@
             the second Snake). When passing through the centre the second time,
             each Performer returns to inface carving towards his/her left in the
             first and third Snake (right in the second Snake)
+          videos:
+            - url: https://www.youtube.com/watch?v=FMnv--NP0tg
+              clips:
+                - [8, 13]
+                - [24, 30.5]
+                - [42, 48]
         - id: S-3
           name: Head-up Inface Snake
           description: >
@@ -52,6 +73,12 @@
             second Snake). When passing through the centre the second time, each
             Performer changes to carving towards his/her right in the first and
             third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [19, 25]
+                - [35, 41.5]
+                - [52, 57]
         - id: S-4
           name: Head-up Switching Snake
           description: >
@@ -64,6 +91,12 @@
             Snake). When passing through the centre the second time, each
             Performer returns to inface carving towards his/her right in the
             first and third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=X0f38juwSNg
+              clips:
+                - [18, 24.5]
+                - [33, 39]
+                - [48, 54]
         - id: S-5
           name: Head-down Mixed Snake
           description: >
@@ -77,6 +110,12 @@
             the second time, each Performer transitions through the back-down
             orientation to head-down inface carving towards his/her left in the
             first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=Tjs_T3wsPvM
+              clips:
+                - [10, 16.5]
+                - [29, 36]
+                - [49, 55.5]
         - id: S-6
           name: Head-up Mixed Snake
           description: >
@@ -90,6 +129,12 @@
             time, each Performer transitions through the backdown orientation to
             head-up inface carving towards his/her right in the first and third
             Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=J0N6zfpQjKI
+              clips:
+                - [17, 23]
+                - [36, 42.5]
+                - [55, 61.5]
     - name: Verticals
       icon: # pattern_types/verticals.svg # or something
       patterns:
@@ -100,6 +145,12 @@
             While remaining head-down throughout the Compulsory Transition, P#1,
             followed by P#2, must cross the Centreline and then the Start
             Sideline before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [15, 16.5]
+                - [32, 33.5]
+                - [49, 50.5]
         - id: T1
           name: Compulsory Transition from Any Head-up Snake to Any Vertical
           transition: true
@@ -108,6 +159,12 @@
             must cross the Centreline. When crossing a Sideline, each Performer
             transitions to head-down in a half inface Reverse Eagle before
             starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [24, 25.5]
+                - [40, 41]
+                - [56, 57.5]
         - id: V-1
           name: Back Layout
           description: >
@@ -116,6 +173,12 @@
             outface Eagle passing under the Ring to head-up. Next, the pair
             flies backwards over the Ring and performs one-half inface Reverse
             Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [16, 20]
+                - [33, 37]
+                - [50, 54]
         - id: V-2
           name: Butterfly with Bottom Loops
           description: >
@@ -124,6 +187,12 @@
             crossing each other, over the Ring. The pair then performs one-half
             outface Eagle with one-half back loop passing under the Ring to
             head-down. This sequence is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=Tjs_T3wsPvM
+              clips:
+                - [16, 21]
+                - [36, 41]
+                - [55, 60.5]
         - id: V-3
           name: Classic
           description: >
@@ -133,6 +202,12 @@
             Eagle under the Ring to head-up. While head-up and flying over the
             Ring, each Performer in the pair performs a 180° pirouette. The pair
             performs one-half inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [25, 29.5]
+                - [41, 45.5]
+                - [57, 61.5]
         - id: V-4
           name: Head-down 360°
           description: >
@@ -142,6 +217,12 @@
             head-down. As they fly over the Ring, they perform a 360° pirouette
             and perform one-half outface Eagle with one-half back loop passing
             under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=J0N6zfpQjKI
+              clips:
+                - [23, 27.5]
+                - [42, 46.5]
+                - [61, 66.5]
         - id: V-5
           name: Head-up 360°
           description: >
@@ -150,6 +231,12 @@
             outface Eagle passing under the Ring to head-up. Next, the pair
             flies backward over the Ring and performs a 360° pirouette and then
             performs one-half inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=FMnv--NP0tg
+              clips:
+                - [13, 17.5]
+                - [30, 35]
+                - [47, 52]
         - id: V-6
           name: Crossing Classic
           description: >
@@ -160,6 +247,12 @@
             flying over the Ring Plane, each Performer in the pair performs a
             180° pirouette while crossing each other. The pair performs one-half
             inface Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=X0f38juwSNg
+              clips:
+                - [24, 29]
+                - [39, 43.5]
+                - [54, 58.5]
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
       patterns:
@@ -171,7 +264,13 @@
             crossing the other Sideline. While head-down, they perform 360° of
             inface carving, crossing a Sideline two (2) additional times, once
             for each half circle. Joining as a pair, the Performers then fly
-            forwards, crossing through the Sidelines. Thence...
+            forwards, crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=X0f38juwSNg
+              clips:
+                - [28, 31.5]
+                - [43, 46.5]
+                - [58, 61]
         - id: M-2
           name: Head-up Inface Circles
           description: >
@@ -184,7 +283,13 @@
             for each half circle. Joining as a pair, the Performers perform
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down and then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=taC_oVukeYI
+              clips:
+                - [18.5, 23.5]
+                - [36.5, 42]
+                - [55.5, 60.5]
         - id: M-3
           name: Mixed Circles
           description: >
@@ -199,7 +304,13 @@
             Joining as a pair, the Performers fly backwards crossing through the
             Sidelines. The pair then performs one-half inface Reverse Eagle,
             crossing through the Sidelines, to head-down. The pair flies
-            forwards, crossing through the Sidelines. Thence...
+            forwards, crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [20, 25.5]
+                - [37, 42.5]
+                - [54, 60]
         - id: M-4
           name: Reverse Mixed Circles
           description: >
@@ -214,7 +325,13 @@
             presenting their backs to each other into 180° of inface carving in
             opposite directions, with P#1 crossing a Sideline and P#2 crossing
             the other Sideline. Joining as a pair, the Performers fly forwards,
-            crossing through the Sidelines. Thence...
+            crossing through the Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=Tjs_T3wsPvM
+              clips:
+                - [20.5, 28]
+                - [40, 47.5]
+                - [60, 67]
         - id: M-5
           name: Head-down Shuffler
           description: >
@@ -227,7 +344,13 @@
             centre (completely crossing the Centreline) into 180° of inface
             carving, with P#1 crossing a Sideline and P#2 crossing the other
             Sideline. Joining as a pair, the Performers fly forwards through the
-            Sidelines. Thence...
+            Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [29, 33.5]
+                - [45, 50]
+                - [61, 66]
         - id: M-6
           name: Head-up Shuffler
           description: >
@@ -244,7 +367,13 @@
             Sideline. Joining as a pair, the Performers perform one-half inface
             Reverse Eagle, crossing through the Sidelines, to head-down. The
             Performers then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=pTATSuGs208
+              clips:
+                - [17, 24]
+                - [38, 45.5]
+                - [59, 66.5]
         - id: M-7
           name: Mixed Shuffler
           description: >
@@ -260,7 +389,13 @@
             fly backwards through the Sidelines. The Performers then perform
             one-half inface Reverse Eagle, crossing through the Sidelines, to
             head-down and then fly forwards, crossing through the Sidelines.
-            Thence...
+            [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=J0N6zfpQjKI
+              clips:
+                - [27, 34.5]
+                - [46.5, 54]
+                - [66.5, 73.5]
         - id: M-8
           name: Head-down inface Shuffler
           description: >
@@ -273,9 +408,16 @@
             centre (completely crossing the Centreline) into 180° of inface
             carving, with P#1 crossing a Sideline and P#2 crossing the other
             Sideline. Joining as a pair, the Performers fly forwards through the
-            Sidelines. Thence...
-        - id: T0
+            Sidelines. [Thence...](./T2)
+          videos:
+            - url: https://www.youtube.com/watch?v=FMnv--NP0tg
+              clips:
+                - [17, 22.5]
+                - [35, 40.5]
+                - [52, 57.5]
+        - id: T2
           name: Compulsory Transition to any Snake or Compulsory Exit Sequence
+          transition: true
           description: >
             ...To transition to a Head-down Snake or Head-down Compulsory Exit
             Sequence (D2W): The pair then performs one-half outface Eagle with
@@ -290,20 +432,44 @@
             Performer completely on his/her side of the Centreline. While
             head-up, the pair then flies backwards through the Sidelines, before
             starting any Head-up Snake or Head-up Compulsory Exit Sequence.
-        - id: E0
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              variant: Into HD Snakes
+              clips:
+                - [26, 28]
+                - [43, 45]
+                - [60.5, 62.5]
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              variant: Into HU Snakes
+              clips:
+                - [33.5, 36]
+                - [49, 52]
+                - [66, 68.5]
+        - id: E1
           name: Head-down Compulsory Exit Sequence
+          transition: true
           description: >
             While head-down, P#1, followed by P#2, inface carves towards the
             Performers' right, completely crossing the Start Sideline before
             exiting the flight chamber from the far side, while maintaining
             sequential order.
-        - id: E1
+          videos:
+            - url: https://www.youtube.com/watch?v=haNN-wwXwXk
+              clips:
+                - [62.5, 65]
+        - id: E2
           name: Head-up Compulsory Exit Sequence
+          transition: true
           description: >
             While head-up, P#1, followed by P#2, inface carves towards the
             Performers' left, completely crossing the Start Sideline before
             exiting the flight chamber from the far side, while maintaining
             sequential order.
+          videos:
+            - url: https://www.youtube.com/watch?v=A53nAS9iwP4
+              clips:
+                - [68, 70]
+
 - id: D4W
   name: Dynamic 4-Way
   rules: *dynamic-rules
@@ -311,7 +477,136 @@
     - name: Snakes
       icon: # pattern_types/snakes.svg # or something
       # I'm currently just referencing the same patterns as D2W, but this can be copied over if they diverge
-      patterns: *dynamic-snakes
+      patterns: 
+        - id: E0
+          name: Compulsory Entrance
+          transition: true
+          description: >
+            P#1, followed by P#2 through P#4, must completely cross the vertical
+            plane defined by the Sidelines. The Performers may cross this
+            vertical plane in any orientation. Maintaining sequential order, the
+            Performers must flow counterclockwise (with respect to the top view)
+            into the first Snake.
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              variant: 'Into HD Snakes'
+              clips:
+                - [16, 19.5]
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              variant: 'Into HU Snakes'
+              clips:
+                - [8, 11.5]
+        - id: S-1
+          name: Head-down Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain in head-down inface carving during the entire
+            Pattern. Performers begin by carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her left in the first and
+            third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [17.5, 24.5]
+                - [35, 42.5]
+                - [52.5, 60]
+        - id: S-2
+          name: Head-down Switching Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and remain head-down during the entire Pattern.
+            Performers begin by inface carving towards the Performers' left in
+            the first and third Snake (right in the second Snake). When passing
+            through the centre the first time, each Performer changes to outface
+            carving towards his/her left in the first and third Snake (right in
+            the second Snake). When passing through the centre the second time,
+            each Performer returns to inface carving towards his/her left in the
+            first and third Snake (right in the second Snake)
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [5.5, 12]
+                - [24, 31.5]
+                - [44, 51]
+        - id: S-3
+          name: Head-up Inface Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain in head-up inface carving during the entire Pattern.
+            Performers begin by carving towards the Performers' right in the
+            first and third Snake (left in the second Snake). When passing
+            through the centre the first time, each Performer changes to carving
+            towards his/her left in the first and third Snake (right in the
+            second Snake). When passing through the centre the second time, each
+            Performer changes to carving towards his/her right in the first and
+            third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [10, 16]
+                - [30, 36.5]
+                - [50, 57]
+        - id: S-4
+          name: Head-up Switching Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and remain head-up during the entire Pattern. Performers begin by
+            inface carving towards the Performers' right in the first and third
+            Snake (left in the second Snake). When passing through the centre
+            the first time, each Performer changes to outface carving towards
+            his/her right in the first and third Snake (left in the second
+            Snake). When passing through the centre the second time, each
+            Performer returns to inface carving towards his/her right in the
+            first and third Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=Rl7IGiiDwxo
+              clips:
+                - [13, 20]
+                - [33, 40.5]
+                # bail on the 3rd page, ignore clip
+        - id: S-5
+          name: Head-down Mixed Snake
+          description: >
+            Performers cross the Start Sideline in a head-down inface
+            orientation and begin by head-down inface carving towards the
+            Performers' left in the first and third Snake (right in the second
+            Snake). When crossing through the Sidelines for the first time, each
+            Performer transitions through the back down orientation to head- up
+            inface carving towards his/her left in the first and third Snake
+            (right in the second Snake). When crossing through the Sidelines for
+            the second time, each Performer transitions through the back-down
+            orientation to head-down inface carving towards his/her left in the
+            first and third Snake (right in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=DVTZVn2GRMI
+              clips:
+                # bust on 1st page, ignore clip
+                - [29.5, 38]
+                - [50.5, 58.5]
+        - id: S-6
+          name: Head-up Mixed Snake
+          description: >
+            Performers cross the Start Sideline in a head-up inface orientation
+            and begin by head-up inface carving towards the Performers' right in
+            the first and third Snake (left in the second Snake). When crossing
+            through the Sidelines for the first time, each Performer transitions
+            through the back-down orientation to head-down inface carving
+            towards his/her right in the first and third Snake (left in the
+            second Snake). When crossing through the Sidelines for the second
+            time, each Performer transitions through the backdown orientation to
+            head-up inface carving towards his/her right in the first and third
+            Snake (left in the second Snake).
+          videos:
+            - url: https://www.youtube.com/watch?v=5XxwyK25CFs
+              clips:
+                - [6, 13.5]
+                - [26, 34]
+                - [47, 55]
+    
     - name: Verticals
       icon: # pattern_types/verticals.svg # or something
       patterns:
@@ -322,6 +617,12 @@
             While remaining head-down throughout the Compulsory Transition, P#1,
             followed by P#2 through P#4, must cross the Centreline and then the
             Start Sideline before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [10, 12.5]
+                - [29, 32]
+                - [48.5, 51]
         - id: T1
           name: Compulsory Transition from Any Head-up Snake to Any Vertical
           transition: true
@@ -330,6 +631,12 @@
             and P#3 must cross the Centreline. When crossing through the
             Sidelines, each Performer transitions to head-down in a half inface
             Reverse Eagle before starting any Vertical.
+          videos:
+            - url: https://www.youtube.com/watch?v=-S--noyN53M
+              clips:
+                - [10, 13.5]
+                - [30, 34]
+                - [48.5, 52]
         - id: V-1
           name: Back Layout
           description: >
@@ -340,6 +647,12 @@
             head-up. Next, each pair, one after the other, flies backward over
             the Ring and performs one-half inface Reverse Eagle under the Ring
             to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=-S--noyN53M
+              clips:
+                - [12, 17.5]
+                - [32.5, 38]
+                - [50.5, 56.5]
         - id: V-2
           name: Butterfly with Bottom Loops
           description: >
@@ -350,6 +663,12 @@
             each pair, one after the other, performs one-half outface Eagle with
             one-half back loop passing under the Ring to head-down. This
             sequence is performed twice.
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [24, 29.5]
+                - [41, 47]
+                - [59, 64.5]
         - id: V-3
           name: Classic
           description: >
@@ -361,6 +680,12 @@
             over the Ring, each Performer in the pair performs a 180° pirouette.
             The pair performs one-half inface Reverse Eagle under the Ring to
             head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=LDCIkFtQEas
+              clips:
+                - [27, 33]
+                - [46, 51.5]
+                - [65, 70.5]
         - id: V-4
           name: Head-down 360°
           description: >
@@ -372,6 +697,12 @@
             they perform a 360° pirouette and perform one-half outface Eagle
             with one-half back loop passing under the Ring to head-down. The
             360° pirouette must rotate away from the Start Sideline.
+          videos:
+            - url: https://www.youtube.com/watch?v=dJfU6-t7ntM
+              clips:
+                - [12, 17.5]
+                - [31, 37]
+                - [50, 56]
         - id: V-5
           name: Head-up 360°
           description: >
@@ -382,6 +713,12 @@
             head-up. Next, each pair flies backwards over the Ring and performs
             a 360° pirouette and then performs one-half inface Reverse Eagle
             under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=Rl7IGiiDwxo
+              clips:
+                - [19.5, 25]
+                - [40, 46]
+                - [63, 68.5]
         - id: V-6
           name: Crossing Classic
           description: >
@@ -394,6 +731,12 @@
             each pair performs a 180° pirouette while the two (2) Performers in
             the pair crossing each other. Each pair performs one-half inface
             Reverse Eagle under the Ring to head-down.
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [16.5, 22]
+                - [36.5, 42.5]
+                - [56.5, 62.5]
     - name: Mixers
       icon: # pattern_types/mixers.svg # or something
       patterns:
@@ -408,6 +751,12 @@
             crossing a Sideline two (2) additional times, once for each half
             circle. P#1 and P#2 then become the leading pair and fly forwards,
             crossing through the Sidelines, followed by P#3 and P#4. Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=AAdDWSEEx8A
+              clips:
+                - [24, 29.5]
+                - [44, 49]
+                - [63.5, 69]
         - id: M-2
           name: Head-up Inface Circles
           description: >
@@ -423,6 +772,12 @@
             Eagle, crossing through the Sidelines, to head-down, followed by P#3
             and P#4. P#1 and P#2 fly forwards, crossing through the Sidelines,
             followed by P#3 & P#4. Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=DVTZVn2GRMI
+              clips:
+                - [21, 28.5]
+                - [41.5, 49]
+                - [62, 69.5]
         - id: M-3
           name: Mixed Circles
           description: >
@@ -440,6 +795,12 @@
             then performs one-half inface Reverse Eagle, crossing through the
             Sidelines, to head-down. P#1 and P#2 fly forwards, crossing through
             the Sidelines, followed by P#3 and P#4. Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [20.5, 28.5]
+                - [41, 49]
+                - [61, 69]
         - id: M-4
           name: Reverse Mixed Circles
           description: >
@@ -458,6 +819,12 @@
             crossing the other Sideline.P#1 and P#2 then become the leading pair
             and fly forwards through the Sidelines, followed by P#3 and P#4.
             Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=X3WZY6prscs
+              clips:
+                - [17, 25.5]
+                - [39.5, 48]
+                - [62.5, 71]
         - id: M-5
           name: Head-down Shuffler
           description: >
@@ -472,6 +839,12 @@
             P#2, then P#4, crossing the other Sideline. P#1 and P#2 then become
             the leading pair and fly forwards through the Sidelines, followed by
             P#3 & P#4. Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [28, 34]
+                - [45.5, 51.5]
+                - [63.5, 69.5]
         - id: M-6
           name: Head-up Shuffler
           description: >
@@ -489,6 +862,12 @@
             pair and perform one-half inface Reverse Eagle, crossing through the
             Sidelines, to head-down, followed by P#3 and P#4. Each pair then
             flies forwards crossing through the Sidelines. Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=Rl7IGiiDwxo
+              clips:
+                - [24, 32.5]
+                - [44, 53]
+                - [67.5, 76]
         - id: M-7
           name: Mixed Shuffler
           description: >
@@ -508,6 +887,12 @@
             crossing through the Sidelines, to head-down. P#1 and P#2 fly
             forwards, crossing through the Sidelines, followed by P#3 and P#4.
             Thence...
+          videos:
+            - url: https://www.youtube.com/watch?v=KiaJppUfjJA
+              clips:
+                - [17, 26.5]
+                - [39, 48]
+                - [61, 71.5]
         - id: M-8
           name: Head-down inface Shuffler
           description: >
@@ -524,7 +909,13 @@
             crossing the other Sideline. P#1 and P#2 then become the leading
             pair and fly forwards through the Sidelines, followed by P#3 & P#4.
             Thence...
-        - id: T0
+          videos:
+            - url: https://www.youtube.com/watch?v=LDCIkFtQEas
+              clips:
+                - [32, 38.5]
+                - [50, 56.5]
+                - [69.5, 76]
+        - id: T2
           name: Compulsory Transition to any Snake or Compulsory Exit Sequence
           transition: true
           description: >
@@ -544,7 +935,21 @@
             While head-up, each pair then flies backwards through the Sidelines,
             before starting any Head-up Snake or Head-up Compulsory Exit
             Sequence.
-        - id: E0
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              variant: 'Into HD Snakes'
+              clips:
+                - [33, 34]
+                - [50.5, 54]
+                - [68.5, 71]
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              variant: 'Into HU Snakes'
+              clips:
+                - [27.5, 32]
+                - [48, 52.5]
+                - [68.5, 72.5]
+
+        - id: E1
           name: Head-down Compulsory Exit Sequence
           transition: true
           description: >
@@ -552,7 +957,11 @@
             inface carve towards the Performers’ right, completely crossing the
             Centreline, then the Start Sideline before exiting the flight
             chamber from the far side, while maintaining sequential order.
-        - id: E1
+          videos:
+            - url: https://www.youtube.com/watch?v=oK5uF7ks36Q
+              clips:
+                - [69.5, 74]
+        - id: E2
           name: Head-up Compulsory Exit Sequence
           transition: true
           description: >
@@ -560,6 +969,10 @@
             carve towards the Performers' left, completely crossing the
             Centreline, then the Start Sideline before exiting the flight
             chamber from the far side, while maintaining sequential order.
+          videos:
+            - url: https://www.youtube.com/watch?v=kqrqpn3Dcmo
+              clips:
+                - [69.5, 74]
 - id: SS
   name: Solo Speed
   rules:
