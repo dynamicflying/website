@@ -29,10 +29,10 @@ Here's a summary of the most notable directories in the repo:
 - `utils`: utility functions used by the website.
 
 There are two persistent branches:
-- `main`: serves as the staging, and is automatically previewed [here](https://dynamicflying.github.io/preview/dynamicflying/website/branch/main)
-- `stable`: serves as the production branch, and is automatically deployed on GitHub Pages on hte official website domain
+- `main`: serves as the staging, and is automatically previewed [here](https://main--dynamicflying.netlify.app/)
+- `stable`: serves as the production branch, and is automatically deployed on GitHub Pages on the official website domain
 
-When opening a PR, a preview will be automatically deployed to GitHub Pages, and a link will be posted in the PR: this is a way to test the cahnges before merging them to `main`.
+When opening a PR, a preview will be automatically deployed to Netlify, and a link will be posted in the PR: this is a way to test the cahnges before merging them to `main`.
 
 ### Running
 
