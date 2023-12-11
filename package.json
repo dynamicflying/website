@@ -28,7 +28,7 @@
     "remark-gfm": "^4.0.0",
     "remark-html": "^16.0.1",
     "tailwindcss": "^3.3.5",
-    "ts-node": "^10.9.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3",
     "yaml": "^2.3.4"
   }
