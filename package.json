@@ -12,7 +12,7 @@
     "@types/node": "^18.16.3",
     "@types/react": "^18.2.51",
     "@types/react-transition-group": "^4.4.10",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "^10.4.17",
     "eslint-config-next": "^14.1.0",
     "json-schema-to-typescript": "^13.1.1",
     "next": "^14.0.4",
